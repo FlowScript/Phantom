@@ -1,5 +1,5 @@
 # Phantom
-![Version: 1.8.1](https://img.shields.io/badge/Version-1.8.1-white.svg)
+![Version: 1.8.2](https://img.shields.io/badge/Version-1.8.2-white.svg)
 ![License: GPL-2.0](https://img.shields.io/badge/License-GPL%202.0-blue.svg)
 
 ## About
@@ -9,7 +9,7 @@
 It has since been discontinued, and I decided to release the source code to the GUI.
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
 #### Update 04/19/25:
-Phantom Version 1.8.1 will most likely be the final version. *Bug Fixes Excluded*
+Phantom Version 1.8.2 will most likely be the final version. *Bug Fixes Excluded*
 
 #### Notice
 Older version of Phantom may contain bugs that hinder the user experience. Please consider using the [newest version](./Phantom.rbxm).
@@ -21,6 +21,25 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 # Changelog
+
+## [Version 1.8.2](https://github.com/FlowScript/Phantom/commit/bb5af8b97d254bf3546eac18ad98c71ce116f24a)
+**Added Commands:**
+- `mine`, `unmine`
+- `bomb`, `unbomb`
+- `trap`, `untrap`
+- `privatenotification`
+
+**New Features:**
+- Notifications can now have different `duration` times
+- Notifications now display a `progress bar` indicating the time until the notification disappears
+
+**Changes:**
+- Max notification count is now `4` instead of `3`
+- Notifications now stay on screen for a default of `5` seconds instead of `10`
+
+**Bug Fixes**
+
+---
 
 ## [Version 1.8.1](https://github.com/FlowScript/Phantom/commit/747d7fc229c5a1352aba424dfddaec33850ecdbb)
 **Added Commands:**
