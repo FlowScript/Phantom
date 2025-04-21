@@ -22,7 +22,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.8.2](https://github.com/FlowScript/Phantom/commit/bb5af8b97d254bf3546eac18ad98c71ce116f24a)
+## [Version 1.8.2](https://github.com/FlowScript/Phantom/commit/0294bdae170d7734e378a40ce255d127cb348789)
 **Added Commands:**
 - `mine`, `unmine`
 - `bomb`, `unbomb`
@@ -30,6 +30,10 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - `privatenotification`
 
 **New Features:**
+- Added ESP Section in Settings page
+  - Toggle
+  - Display Names
+  - Use Team Color
 - Notifications can now have different `duration` times
 - Notifications now display a `progress bar` indicating the time until the notification disappears
 
