@@ -1,5 +1,5 @@
 # Phantom
-![Version: 1.8.3](https://img.shields.io/badge/Version-1.8.3-white.svg)
+![Version: 1.8.4](https://img.shields.io/badge/Version-1.8.4-white.svg)
 ![License: GPL-2.0](https://img.shields.io/badge/License-GPL%202.0-blue.svg)
 
 ## About
@@ -8,8 +8,8 @@
 #### Phantom was a server-side made back in 2018 *(Formally known as "BruhK3K" at the time)*.
 It has since been discontinued, and I decided to release the source code to the GUI.
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
-#### Update 04/22/25:
-Phantom Version 1.8.3 will most likely be the final version. *Bug Fixes Excluded*
+#### Update 04/24/25:
+Phantom Version 1.8.4 will most likely be the final version. *Bug Fixes Excluded*
 
 #### Notice
 Older version of Phantom may contain bugs that hinder the user experience. Please consider using the [newest version](./Phantom.rbxm).
@@ -21,6 +21,22 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 # Changelog
+
+## [Version 1.8.4](https://github.com/FlowScript/Phantom/commit/532e99de56668c58b1fd7896d596d053ee71481b)
+
+**Added Commands:**
+- `sign`, `unsign`,
+- `clear`
+
+**New Features:**
+- You can now select `Players` in a specific `Team` to run Commands on using the `#` Tag
+  - Example: `kill #TeamName`
+
+**Changes:**
+- The `CreateTeam` Command now sets the New Team's `AutoAssignable` value to `false`
+- Other Small Changes
+
+---
 
 ## [Version 1.8.3](https://github.com/FlowScript/Phantom/commit/8823c29223d8fd418a484b1518062de61a7c4534)
 **Added:**
