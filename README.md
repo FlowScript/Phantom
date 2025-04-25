@@ -25,6 +25,8 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ## [Version 1.8.5](https://github.com/FlowScript/Phantom/commit/f79ed6b6ea076af49eda6fbed73672c8ee17dd4f)
 
 **New Features:**
+- You can now select the `Player` you're currently viewing by using `!viewing`
+  - Example: `kill !viewing`
 - Added a `Notification` Section in the Settings page
   - Enable or Disable Notifications
   - Enable or Disable `Extra Command Notifications`
