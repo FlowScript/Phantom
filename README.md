@@ -1,5 +1,5 @@
 # Phantom
-![Version: 1.8.5](https://img.shields.io/badge/Version-1.8.5-white.svg)
+![Version: 1.8.6](https://img.shields.io/badge/Version-1.8.6-white.svg)
 ![License: GPL-2.0](https://img.shields.io/badge/License-GPL%202.0-blue.svg)
 
 ## About
@@ -8,8 +8,8 @@
 #### Phantom was a server-side made back in 2018 *(Formally known as "BruhK3K" at the time)*.
 It has since been discontinued, and I decided to release the source code to the GUI.
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
-#### Update 04/25/25:
-Phantom Version 1.8.5 will most likely be the final version. *Bug Fixes Excluded*
+#### Update 04/26/25:
+Phantom Version 1.8.6 will most likely be the final version. *Bug Fixes Excluded*
 
 #### Notice
 Older version of Phantom may contain bugs that hinder the user experience. Please consider using the [newest version](./Phantom.rbxm).
@@ -22,7 +22,26 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.8.5](https://github.com/FlowScript/Phantom/commit/f79ed6b6ea076af49eda6fbed73672c8ee17dd4f)
+## [Version 1.8.6](https://github.com/FlowScript/Phantom/commit/a79164b385b583d7511ce94c0ce907d9a42739ff)
+
+**New Commands:**
+- `countdown`, `privatecountdown`
+- `uncountdown`, `unjumpscare`
+- `renameteam`
+
+**New Features:**
+- Script Hub now hides `Requires` from the Console
+
+**Changes:**
+- Added `BrickColorIndex` option to more Commands
+- Added optional `Everything` tag to the `Clear` Command
+- `Server Uptime` is now displayed in a different format
+
+**Bug Fixes**
+
+---
+
+## [Version 1.8.5](https://github.com/FlowScript/Phantom/commit/19075b85799e77adada6f62e51071795fda2acc0)
 
 **New Features:**
 - You can now select the `Player` you're currently viewing by using `!viewing`
