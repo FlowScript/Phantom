@@ -8,7 +8,7 @@
 #### Phantom was a server-side made back in 2018 *(Formally known as "BruhK3K" at the time)*.
 It has since been discontinued, and I decided to release the source code to the GUI.
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
-#### Update 04/26/25:
+#### Update 04/27/25:
 Phantom Version 1.8.6 will most likely be the final version. *Bug Fixes Excluded*
 
 #### Notice
@@ -22,15 +22,17 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.8.6](https://github.com/FlowScript/Phantom/commit/a79164b385b583d7511ce94c0ce907d9a42739ff)
+## [Version 1.8.6](https://github.com/FlowScript/Phantom/commit/f4a2b8c5078df5ecf85f87f581b6b21c76ddefea)
 
 **New Commands:**
+- `spawnpoint`, `unspawnpoint`
 - `countdown`, `privatecountdown`
 - `uncountdown`, `unjumpscare`
 - `renameteam`
 
 **New Features:**
 - Script Hub now hides `Requires` from the Console
+- Added `Print to Console` setting in Settings Page under `Notifications`
 
 **Changes:**
 - Added `BrickColorIndex` option to more Commands
