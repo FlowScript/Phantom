@@ -22,7 +22,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.8.6](https://github.com/FlowScript/Phantom/commit/fc6645bb86b9e889da10d47e5f911b7f4b65c2c1)
+## [Version 1.8.6](https://github.com/FlowScript/Phantom/commit/b9df360af7a7c75cf25d499b0fa81b5427b47ef8)
 
 **New Commands:**
 - `spawnpoint`, `unspawnpoint`
