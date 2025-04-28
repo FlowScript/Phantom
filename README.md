@@ -22,7 +22,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.8.6](https://github.com/FlowScript/Phantom/commit/f4a2b8c5078df5ecf85f87f581b6b21c76ddefea)
+## [Version 1.8.6](https://github.com/FlowScript/Phantom/commit/fc6645bb86b9e889da10d47e5f911b7f4b65c2c1)
 
 **New Commands:**
 - `spawnpoint`, `unspawnpoint`
@@ -33,6 +33,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 **New Features:**
 - Script Hub now hides `Requires` from the Console
 - Added `Print to Console` setting in Settings Page under `Notifications`
+- `Right Clicking` the `Pause Button` while viewing `Console Logs` now restores `Previous Server Logs` using Log History
 
 **Changes:**
 - Added `BrickColorIndex` option to more Commands
