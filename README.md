@@ -1,5 +1,5 @@
 # Phantom
-![Version: 1.8.6](https://img.shields.io/badge/Version-1.8.6-white.svg)
+![Version: 1.8.7](https://img.shields.io/badge/Version-1.8.7-white.svg)
 ![License: GPL-2.0](https://img.shields.io/badge/License-GPL%202.0-blue.svg)
 
 ## About
@@ -8,8 +8,8 @@
 #### Phantom was a server-side made back in 2018 *(Formally known as "BruhK3K" at the time)*.
 It has since been discontinued, and I decided to release the source code to the GUI.
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
-#### Update 04/27/25:
-Phantom Version 1.8.6 will most likely be the final version. *Bug Fixes Excluded*
+#### Update 04/29/25:
+Phantom Version 1.8.7 will most likely be the final version. *Bug Fixes Excluded*
 
 #### Notice
 Older version of Phantom may contain bugs that hinder the user experience. Please consider using the [newest version](./Phantom.rbxm).
@@ -21,6 +21,23 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 # Changelog
+
+## [Version 1.8.7](https://github.com/FlowScript/Phantom/commit/79258b0383fa025e7d22f922c0a7647ab45f4f09)
+
+**New Settings:**
+- `Hide Require Logs on Execute`
+- `ESP Use Highlight`
+- `Translation Styles`
+
+**New Features:**
+- A Notification is now displayed when a Require is logged on the Logs page.
+
+**Changes:**
+- Small UI Tweaks
+
+**Bug Fixes**
+
+---
 
 ## [Version 1.8.6](https://github.com/FlowScript/Phantom/commit/b9df360af7a7c75cf25d499b0fa81b5427b47ef8)
 
