@@ -1,5 +1,5 @@
 # Phantom
-![Version: 1.8.7](https://img.shields.io/badge/Version-1.8.7-white.svg)
+![Version: 1.8.8](https://img.shields.io/badge/Version-1.8.8-white.svg)
 ![License: GPL-2.0](https://img.shields.io/badge/License-GPL%202.0-blue.svg)
 
 ## About
@@ -8,8 +8,8 @@
 #### Phantom was a server-side made back in 2018 *(Formally known as "BruhK3K" at the time)*.
 It has since been discontinued, and I decided to release the source code to the GUI.
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
-#### Update 04/29/25:
-Phantom Version 1.8.7 will most likely be the final version. *Bug Fixes Excluded*
+#### Update *(May 2nd, 2025)*:
+Phantom Version 1.8.8 will most likely be the final version. *Bug Fixes Excluded*
 
 #### Notice
 Older version of Phantom may contain bugs that hinder the user experience. Please consider using the [newest version](./Phantom.rbxm).
@@ -21,6 +21,31 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 # Changelog
+
+## [Version 1.8.8](https://github.com/FlowScript/Phantom/commit/0501aba21d92b47f0429d38caed8ad9cb23bfdc0)
+
+**New Commands:**
+- `Decal`, `Undecal`
+- `Insert`, `Uninsert`
+- `Preivouserror`, `Previoussuccess`
+- `Loadstring`
+- `Settargets`
+
+**New Features:**
+- Commands can now be executed on "!targets" after setting Targets with the `Settargets` Command
+- Added a Log Client Console Setting for better tracking
+- Enhanced Command Search functionality for improved user experience
+- Introduced Searching by Type on the Logs page (Valid searches: `type:server`, `client`, `error`, `warning (warn)`, `output (print)`)
+- The Script Hub now utilizes "me" instead of the Local Player Name for targeting
+- Local Player targeting in Commands and Script Hub is now exclusively done using "me" or "all" (the Local Player's Name will no longer be accepted)
+- A warning has been added for executing commands on multiple players in the Script Hub
+
+**Changes:**
+- Small Tweaks and Improvements
+
+**Bug Fixes**
+
+---
 
 ## [Version 1.8.7](https://github.com/FlowScript/Phantom/commit/79258b0383fa025e7d22f922c0a7647ab45f4f09)
 
