@@ -22,7 +22,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.8.8](https://github.com/FlowScript/Phantom/commit/3aaa96203f37fc0b8cdc72079f126ae014a36561)
+## [Version 1.8.8](https://github.com/FlowScript/Phantom/commit/0e02e16db29edccc028c59182f6c51e773dc541c)
 
 **New Commands:**
 - `Decal`, `Undecal`
