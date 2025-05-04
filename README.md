@@ -22,7 +22,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.8.8](https://github.com/FlowScript/Phantom/commit/5031705982892b20a0225fbe3dddc088f7b1005c)
+## [Version 1.8.8](https://github.com/FlowScript/Phantom/commit/45b951f4bd41f0e66d4f105fb0df222d784c8131)
 
 **New Commands:**
 - `decal`, `undecal`
@@ -42,6 +42,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - A warning has been added for executing commands on multiple players in the Script Hub
 
 **Changes:**
+- `Viewing` a Player will now `Persist` if the Character is `Reloaded`
 - Small Tweaks and Improvements
 
 **Bug Fixes**
