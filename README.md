@@ -8,7 +8,7 @@
 #### Phantom was a server-side made back in 2018 *(Formally known as "BruhK3K" at the time)*.
 It has since been discontinued, and I decided to release the source code to the GUI.
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
-#### Update *(May 2nd, 2025)*:
+#### Update *(May 4th, 2025)*:
 Phantom Version 1.8.8 will most likely be the final version. *Bug Fixes Excluded*
 
 #### Notice
@@ -22,7 +22,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.8.8](https://github.com/FlowScript/Phantom/commit/45b951f4bd41f0e66d4f105fb0df222d784c8131)
+## [Version 1.8.8](https://github.com/FlowScript/Phantom/commit/eaceb22a9ccc9f9bbd52835d9f5d111ce14b5ead)
 
 **New Commands:**
 - `decal`, `undecal`
