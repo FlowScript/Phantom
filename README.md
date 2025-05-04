@@ -22,14 +22,15 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.8.8](https://github.com/FlowScript/Phantom/commit/0e02e16db29edccc028c59182f6c51e773dc541c)
+## [Version 1.8.8](https://github.com/FlowScript/Phantom/commit/5031705982892b20a0225fbe3dddc088f7b1005c)
 
 **New Commands:**
-- `Decal`, `Undecal`
-- `Insert`, `Uninsert`
-- `Preivouserror`, `Previoussuccess`
-- `Loadstring`
-- `Settargets`
+- `decal`, `undecal`
+- `insert`, `uninsert`
+- `playerlist`, `unplayerlist`
+- `preivouserror`, `previoussuccess`
+- `loadstring`
+- `settargets`
 
 **New Features:**
 - Commands can now be executed on "!targets" after setting Targets with the `Settargets` Command
