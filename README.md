@@ -1,5 +1,5 @@
 # Phantom
-![Version: 1.8.8](https://img.shields.io/badge/Version-1.8.8-white.svg)
+![Version: 1.8.9](https://img.shields.io/badge/Version-1.8.9-white.svg)
 ![License: GPL-2.0](https://img.shields.io/badge/License-GPL%202.0-blue.svg)
 
 ## About
@@ -8,8 +8,8 @@
 #### Phantom was a server-side made back in 2018 *(Formally known as "BruhK3K" at the time)*.
 It has since been discontinued, and I decided to release the source code to the GUI.
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
-#### Update *(May 4th, 2025)*:
-Phantom Version 1.8.8 will most likely be the final version. *Bug Fixes Excluded*
+#### Update *(May 5th, 2025)*:
+Phantom Version 1.8.9 will most likely be the final version. *Bug Fixes Excluded*
 
 #### Notice
 Older version of Phantom may contain bugs that hinder the user experience. Please consider using the [newest version](./Phantom.rbxm).
@@ -21,6 +21,21 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 # Changelog
+
+## [Version 1.8.9](https://github.com/FlowScript/Phantom/commit/15ad56e9427ccb9e477a15d7dc17c9b8f78b4989)
+
+**New Commands:**
+- `localloadstring`
+- `targets`
+
+**Changes:**
+- Command `DecalIDs` and `SoundIDs` are now loaded from `Pastebin` *(Just like Script Hub)*
+- `Place` Command now has an optional `JobID` Argument
+- Small Tweaks and Improvements
+
+**Bug Fixes**
+
+---
 
 ## [Version 1.8.8](https://github.com/FlowScript/Phantom/commit/eaceb22a9ccc9f9bbd52835d9f5d111ce14b5ead)
 
