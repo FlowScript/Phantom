@@ -22,7 +22,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.8.9](https://github.com/FlowScript/Phantom/commit/7a2622623be1b1d9228eb8d1b1c550904b0a9d3a)
+## [Version 1.8.9](https://github.com/FlowScript/Phantom/commit/315abce3163a441a2baf427e858cf86e68ace22f)
 
 **New Commands:**
 - `localloadstring`
