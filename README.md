@@ -8,7 +8,7 @@
 #### Phantom was a server-side made back in 2018 *(Formally known as "BruhK3K" at the time)*.
 It has since been discontinued, and I decided to release the source code to the GUI.
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
-#### Update *(May 7th, 2025)*:
+#### Update *(May 8th, 2025)*:
 Phantom Version 1.9.0 will most likely be the final version. *Bug Fixes Excluded*
 
 #### Notice
@@ -22,7 +22,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.0](https://github.com/FlowScript/Phantom/commit/3f576b97dc2cd4d2e80f7b79f38a6c0be4c74676)
+## [Version 1.9.0](https://github.com/FlowScript/Phantom/commit/a4eb562ee945940015fe6c8d1202763ed3b58132)
 
 **New Features:**
 - Added targeting Players within a specified Stud radius
@@ -35,12 +35,16 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Added an optional `Multiple` argument to the `Car` command
 - Added an optional `SingleTool` argument to multiple *Gear Type* commands
 - Added optional `ImageID` and `SoundID` arguments to the `Crash` command
+- Added optional `Heat` argument to `Fire` command
+- Added optional `Size` argument to `Smoke` command
+- Added optional `BrickColorIndex` argument to `Fire`, `Smoke`, `Sparkles` commands
 
 **Changes:**
 - Gears added via the `Gear` command can now be removed using the `Ungear` command
 - The `Spawnpoint` command now uses the Targeted Player's Position if no Secondary Target is specified
 - Updated the Freecam Script to the latest Roblox Release
   - The `Freecam` command now has a Keybind Toggle *(Shift + P)*
+- Added `R15` Tag as an option to `Script Hub` scripts
 - Small Tweaks and Improvements
 
 **Bug Fixes**
