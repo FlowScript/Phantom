@@ -1,5 +1,5 @@
 # Phantom
-![Version: 1.8.9](https://img.shields.io/badge/Version-1.8.9-white.svg)
+![Version: 1.9.0](https://img.shields.io/badge/Version-1.9.0-white.svg)
 ![License: GPL-2.0](https://img.shields.io/badge/License-GPL%202.0-blue.svg)
 
 ## About
@@ -8,8 +8,8 @@
 #### Phantom was a server-side made back in 2018 *(Formally known as "BruhK3K" at the time)*.
 It has since been discontinued, and I decided to release the source code to the GUI.
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
-#### Update *(May 5th, 2025)*:
-Phantom Version 1.8.9 will most likely be the final version. *Bug Fixes Excluded*
+#### Update *(May 7th, 2025)*:
+Phantom Version 1.9.0 will most likely be the final version. *Bug Fixes Excluded*
 
 #### Notice
 Older version of Phantom may contain bugs that hinder the user experience. Please consider using the [newest version](./Phantom.rbxm).
@@ -21,6 +21,31 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 # Changelog
+
+## [Version 1.9.0](https://github.com/FlowScript/Phantom/commit/3f576b97dc2cd4d2e80f7b79f38a6c0be4c74676)
+
+**New Features:**
+- Added targeting Players within a specified Stud radius
+  - Example: `kill !10` - kills Players within a 10 Stud radius
+- Added Aliases for `!viewing` and `!targets` Tags:
+  - `!viewing`: `!view`, `!v`
+  - `!targets`: `!target`, `!t`
+- Added `Ungear` command
+- Added an optional `ToolName` argument to the `Removetools` command
+- Added an optional `Multiple` argument to the `Car` command
+- Added an optional `SingleTool` argument to multiple *Gear Type* commands
+- Added optional `ImageID` and `SoundID` arguments to the `Crash` command
+
+**Changes:**
+- Gears added via the `Gear` command can now be removed using the `Ungear` command
+- The `Spawnpoint` command now uses the Targeted Player's Position if no Secondary Target is specified
+- Updated the Freecam Script to the latest Roblox Release
+  - The `Freecam` command now has a Keybind Toggle *(Shift + P)*
+- Small Tweaks and Improvements
+
+**Bug Fixes**
+
+---
 
 ## [Version 1.8.9](https://github.com/FlowScript/Phantom/commit/315abce3163a441a2baf427e858cf86e68ace22f)
 
