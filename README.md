@@ -22,7 +22,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.0](https://github.com/FlowScript/Phantom/commit/7acfa3316d4a954f0517fb3d0c7af15c89599638)
+## [Version 1.9.0](https://github.com/FlowScript/Phantom/commit/3eb91f23fc0cf5e4e5f6c9eb63514e7972f2d0c8)
 
 **New Features:**
 - Added targeting Players within a specified Stud radius
