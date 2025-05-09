@@ -8,7 +8,7 @@
 #### Phantom was a server-side made back in 2018 *(Formally known as "BruhK3K" at the time)*.
 It has since been discontinued, and I decided to release the source code to the GUI.
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
-#### Update *(May 8th, 2025)*:
+#### Update *(May 9th, 2025)*:
 Phantom Version 1.9.0 will most likely be the final version. *Bug Fixes Excluded*
 
 #### Notice
@@ -22,7 +22,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.0](https://github.com/FlowScript/Phantom/commit/d3b6e835218242609ae43b76de7b10bce48a2011)
+## [Version 1.9.0](https://github.com/FlowScript/Phantom/commit/7acfa3316d4a954f0517fb3d0c7af15c89599638)
 
 **New Features:**
 - Added targeting Players within a specified Stud radius
