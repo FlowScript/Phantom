@@ -22,7 +22,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.0](https://github.com/FlowScript/Phantom/commit/a4eb562ee945940015fe6c8d1202763ed3b58132)
+## [Version 1.9.0](https://github.com/FlowScript/Phantom/commit/d3b6e835218242609ae43b76de7b10bce48a2011)
 
 **New Features:**
 - Added targeting Players within a specified Stud radius
@@ -31,13 +31,14 @@ See the [LICENSE](./LICENSE.txt) file for details.
   - `!viewing`: `!view`, `!v`
   - `!targets`: `!target`, `!t`
 - Added `Ungear` command
-- Added an optional `ToolName` argument to the `Removetools` command
-- Added an optional `Multiple` argument to the `Car` command
-- Added an optional `SingleTool` argument to multiple *Gear Type* commands
+- Added optional `ToolName` argument to the `Removetools` command
+- Added optional `MaxSpeed` and `Multiple` arguments to the `Car` command
+- Added optional `Strength` argument to `Fling` command
+- Added optional `SingleTool` argument to multiple *Gear Type* commands
 - Added optional `ImageID` and `SoundID` arguments to the `Crash` command
 - Added optional `Heat` argument to `Fire` command
 - Added optional `Size` argument to `Smoke` command
-- Added optional `BrickColorIndex` argument to `Fire`, `Smoke`, `Sparkles` commands
+- Added optional `BrickColorIndex` argument to `Fire`, `Smoke`, and `Sparkles` commands
 
 **Changes:**
 - Gears added via the `Gear` command can now be removed using the `Ungear` command
