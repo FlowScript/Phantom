@@ -1,5 +1,5 @@
 # Phantom
-![Version: 1.9.0](https://img.shields.io/badge/Version-1.9.0-white.svg)
+![Version: 1.9.1](https://img.shields.io/badge/Version-1.9.1-white.svg)
 ![License: GPL-2.0](https://img.shields.io/badge/License-GPL%202.0-blue.svg)
 
 ## About
@@ -8,8 +8,8 @@
 #### Phantom was a server-side made back in 2018 *(Formally known as "BruhK3K" at the time)*.
 It has since been discontinued, and I decided to release the source code to the GUI.
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
-#### Update *(May 9th, 2025)*:
-Phantom Version 1.9.0 will most likely be the final version. *Bug Fixes Excluded*
+#### Update *(May 10th, 2025)*:
+Phantom Version 1.9.1 will most likely be the final version. *Bug Fixes Excluded*
 
 #### Notice
 Older version of Phantom may contain bugs that hinder the user experience. Please consider using the [newest version](./Phantom.rbxm).
@@ -21,6 +21,19 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 # Changelog
+
+## [Version 1.9.1](https://github.com/FlowScript/Phantom/commit/f080d027a569dabef2aead5a35d8264dd88a1e24)
+
+**New Features:**
+- Added `Target Tags` to `Script Hub Player Search` and to `Character`, `SpawnPoint`, `Teleport`, commands
+- Added `Team Index` to `Target Tags`
+
+**Changes:**
+- Tweaks and Improvements
+
+**Bug Fixes**
+
+---
 
 ## [Version 1.9.0](https://github.com/FlowScript/Phantom/commit/3eb91f23fc0cf5e4e5f6c9eb63514e7972f2d0c8)
 
