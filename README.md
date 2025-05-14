@@ -22,7 +22,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.2](https://github.com/FlowScript/Phantom/commit/3dba2397c6e73eedc7fa1e672a3c804b59c15093)
+## [Version 1.9.2](https://github.com/FlowScript/Phantom/commit/2fbe1773e953ebcae742603b32aa551bdad7e8be)
 
 **New Features:**
 - Added optional `Player(s)` argument to `CopyTools` command
