@@ -1,5 +1,5 @@
 # Phantom
-![Version: 1.9.1](https://img.shields.io/badge/Version-1.9.1-white.svg)
+![Version: 1.9.2](https://img.shields.io/badge/Version-1.9.2-white.svg)
 ![License: GPL-2.0](https://img.shields.io/badge/License-GPL%202.0-blue.svg)
 
 ## About
@@ -8,8 +8,8 @@
 #### Phantom was a server-side made back in 2018 *(Formally known as "BruhK3K" at the time)*.
 It has since been discontinued, and I decided to release the source code to the GUI.
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
-#### Update *(May 11th, 2025)*:
-Phantom Version 1.9.1 will most likely be the final version. *Bug Fixes Excluded*
+#### Update *(May 14th, 2025)*:
+Phantom Version 1.9.2 will most likely be the final version. *Bug Fixes Excluded*
 
 #### Notice
 Older version of Phantom may contain bugs that hinder the user experience. Please consider using the [newest version](./Phantom.rbxm).
@@ -21,6 +21,22 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 # Changelog
+
+## [Version 1.9.2](https://github.com/FlowScript/Phantom/commit/3dba2397c6e73eedc7fa1e672a3c804b59c15093)
+
+**New Features:**
+- Added optional `Player(s)` argument to `CopyTools` command
+
+Removed:
+- `CopyToolsTo` command
+
+Changes:
+- Every other row in the `Actions` Page has a different `Background Color` for better visibility
+- GUI Tweaks and Changes
+
+**Bug Fixes**
+
+---
 
 ## [Version 1.9.1](https://github.com/FlowScript/Phantom/commit/f05bb334433842746a4c62b420df20d121b62bae)
 
@@ -46,8 +62,8 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Added Aliases for `!viewing` and `!targets` Tags:
   - `!viewing`: `!view`, `!v`
   - `!targets`: `!target`, `!t`
-- Added `Ungear` command
-- Added optional `ToolName` argument to the `Removetools` command
+- Added `UnGear` command
+- Added optional `ToolName` argument to the `RemoveTools` command
 - Added optional `MaxSpeed` and `Multiple` arguments to the `Car` command
 - Added optional `Strength` argument to `Fling` command
 - Added optional `SingleTool` argument to multiple *Gear Type* commands
@@ -57,10 +73,10 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Added optional `BrickColorIndex` argument to `Fire`, `Smoke`, and `Sparkles` commands
 
 **Changes:**
-- Gears added via the `Gear` command can now be removed using the `Ungear` command
-- The `Spawnpoint` command now uses the Targeted Player's Position if no Secondary Target is specified
+- Gears added via the `Gear` command can now be removed using the `UnGear` command
+- The `SpawnPoint` command now uses the Targeted Player's Position if no Secondary Target is specified
 - Updated the Freecam Script to the latest Roblox Release
-  - The `Freecam` command now has a Keybind Toggle *(Shift + P)*
+  - The `FreeCam` command now has a Keybind Toggle *(Shift + P)*
 - Added `R15` Tag as an option to `Script Hub` scripts
 - Small Tweaks and Improvements
 
@@ -71,12 +87,12 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ## [Version 1.8.9](https://github.com/FlowScript/Phantom/commit/315abce3163a441a2baf427e858cf86e68ace22f)
 
 **New Commands:**
-- `localloadstring`
-- `targets`
+- `LocalLoadString`
+- `Targets`
 
 **Changes:**
 - Command `DecalIDs` and `SoundIDs` are now loaded from `Pastebin` *(Just like Script Hub)*
-- `Place` Command now has an optional `JobID` Argument
+- `Place` command now has an optional `JobID` Argument
 - Small Tweaks and Improvements
 
 **Bug Fixes**
@@ -86,21 +102,21 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ## [Version 1.8.8](https://github.com/FlowScript/Phantom/commit/eaceb22a9ccc9f9bbd52835d9f5d111ce14b5ead)
 
 **New Commands:**
-- `decal`, `undecal`
-- `insert`, `uninsert`
-- `playerlist`, `unplayerlist`
-- `preivouserror`, `previoussuccess`
-- `loadstring`
-- `settargets`
+- `Decal`, `UnDecal`
+- `Insert`, `UnInsert`
+- `PlayerList`, `UnPlayerList`
+- `PreivousError`, `PreviousSuccess`
+- `LoadString`
+- `SetTargets`
 
 **New Features:**
-- Commands can now be executed on "!targets" after setting Targets with the `Settargets` Command
+- Commands can now be executed on "!targets" after setting Targets with the `SetTargets` command
 - Added a Log Client Console Setting for better tracking
 - Enhanced Command Search functionality for improved user experience
 - Introduced Searching by Type on the Logs page (Valid searches: `type:server`, `client`, `error`, `warning (warn)`, `output (print)`)
 - The Script Hub now utilizes "me" instead of the Local Player Name for targeting
 - Local Player targeting in Commands and Script Hub is now exclusively done using "me" or "all" (the Local Player's Name will no longer be accepted)
-- A warning has been added for executing commands on multiple players in the Script Hub
+- A warning has been added for executing scripts on multiple players in the Script Hub
 
 **Changes:**
 - `Viewing` a Player will now `Persist` if the Character is `Reloaded`
@@ -130,10 +146,10 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ## [Version 1.8.6](https://github.com/FlowScript/Phantom/commit/b9df360af7a7c75cf25d499b0fa81b5427b47ef8)
 
 **New Commands:**
-- `spawnpoint`, `unspawnpoint`
-- `countdown`, `privatecountdown`
-- `uncountdown`, `unjumpscare`
-- `renameteam`
+- `SpawnPoint`, `UnSpawnPoint`
+- `Countdown`, `PrivateCountdown`
+- `UnCountdown`, `UnJumpscare`
+- `RenameTeam`
 
 **New Features:**
 - Script Hub now hides `Requires` from the Console
@@ -168,9 +184,9 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 ## [Version 1.8.4](https://github.com/FlowScript/Phantom/commit/532e99de56668c58b1fd7896d596d053ee71481b)
 
-**Added Commands:**
-- `sign`, `unsign`,
-- `clear`
+**New Commands:**
+- `Sign`, `UnSign`,
+- `Clear`
 
 **New Features:**
 - You can now select `Players` in a specific `Team` to run Commands on using the `#` Tag
@@ -183,17 +199,17 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 ## [Version 1.8.3](https://github.com/FlowScript/Phantom/commit/8823c29223d8fd418a484b1518062de61a7c4534)
-**Added:**
-- `excludeLocalPlayer` tag for the following Commands:
+**New Features:**
+- Added `excludeLocalPlayer` tag for the following Commands:
   - `ban`
   - `apiBan`
   - `kick`
   - `crash`
-- This prevents the Command from running on the Local Player
+  - This prevents the Command from running on the Local Player
 
 **New Features:**
-- `forceApiBan` Command now accepts UserIDs
-- The `view` Command now sets the Local Player's `ReplicationFocus` to the player they're viewing
+- `ForceApiBan` command now accepts UserIDs
+- The `View` command now sets the Local Player's `ReplicationFocus` to the player they're viewing
 
 **Changes:**
 - Small Notification Changes
@@ -201,19 +217,19 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 ## [Version 1.8.2](https://github.com/FlowScript/Phantom/commit/0294bdae170d7734e378a40ce255d127cb348789)
-**Added Commands:**
-- `mine`, `unmine`
-- `bomb`, `unbomb`
-- `trap`, `untrap`
-- `privatenotification`
+**New Commands:**
+- `Mine`, `UnMine`
+- `Bomb`, `UnBomb`
+- `Trap`, `UnTrap`
+- `PrivateNotification`
 
 **New Features:**
-- Added ESP Section in Settings page
-  - Toggle
-  - Display Names
-  - Use Team Color
-- Notifications can now have different `duration` times
-- Notifications now display a `progress bar` indicating the time until the notification disappears
+- Added `ESP` Section in Settings page with Settings:
+  - `Toggle`
+  - `Display Names`
+  - `Use Team Color`
+- Notifications can now have different `Duration` times
+- Notifications now display a `Progress Bar` indicating the time until the notification disappears
 
 **Changes:**
 - Max notification count is now `4` instead of `3`
@@ -224,14 +240,14 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 ## [Version 1.8.1](https://github.com/FlowScript/Phantom/commit/747d7fc229c5a1352aba424dfddaec33850ecdbb)
-**Added Commands:**
-- `apiban`, `unapiban`, `forceapiban`
+**New Commands:**
+- `ApiBan`, `UnApiBan`, `ForceApiBan`
 
 **New Features:**
 - ScriptHub Backup Scripts now immediately load in, in case HTTP requests are put into long queues
 - Added ESP toggle and Keybind to the Settings page
 - Features and Keybinds have been grouped in the Settings page
-- Added optional `Hidden` argument to the `forcefield` command
+- Added optional `Hidden` argument to the `ForceField` command
 - Using the `random` tag when specifying a target now excludes the local player (unless they're the only player in the server)
 
 **Bug Fixes**
@@ -239,8 +255,10 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 ## [Version 1.8.0](https://github.com/FlowScript/Phantom/commit/a7c8434ff200ffef6aea4c1dab5b49429954a96e)
-**Added Commands:**
-- `bans`, `forceban`, `guis`, `unguis`, `inventory`, `uninventory`
+**New Commands:**
+- `Bans`, `ForceBan`
+- `Guis`, `UnGuis`
+- `Inventory`, `UnInventory`
 
 **New Features:**
 - Added optional `BrickColorIndex` argument for the following commands: `title`, `hologram`, `createteam`
@@ -255,7 +273,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 ## [Version 1.7.9](https://github.com/FlowScript/Phantom/commit/ae75dd50f97e75bb7e00078288e4c1250698ca55)
 **Changes:**
-- `Change`, `Team`, `RemoveTeam` commands now support using indexes instead of names
+- `Change`, `Team`, and `RemoveTeam` commands now support using indexes instead of names
 - `Change` command now supports `BoolValues`
 
 **Bug Fixes**
@@ -264,7 +282,8 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 ## [Version 1.7.8](https://github.com/FlowScript/Phantom/commit/39624e4a86dd90468e68fe9610c27c992d42be0c)
 **New Commands:**
-- Added `Title`, `UnTitle`, `Hologram`, `UnHologram` commands
+- `Title`, `UnTitle`
+- `Hologram`, `UnHologram`
 
 **Changes:**
 - Updated the look of the Commands Page command bar
@@ -275,12 +294,12 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 ## [Version 1.7.7](https://github.com/FlowScript/Phantom/commit/64f483fa86626c619584f9a759ae6abfad15e2e4)
-**Added Commands:**
-- `fog`, `unfog`
-- `musiccharacter`, `unmusiccharacter`
-- `musicpart`, `unmusicpart`
-- `serverlock`, `unserverlock`
-- `unteam`
+**New Commands:**
+- `Fog`, `UnFog`
+- `MusicCharacter`, `UnMusicCharacter`
+- `MusicPart`, `UnMusicPart`
+- `ServerLock`, `UnServerLock`
+- `UnTeam`
 
 **Changes:**
 - Updated how command aliases are rendered
@@ -290,14 +309,13 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 ## [Version 1.7.6](https://github.com/FlowScript/Phantom/commit/b39fb87c53073f4fac00805b52b1cf8a18582e80)
 **New Features:**
-- Added `UnName` command
-- Added `CopyAllUnique` button to Scan page
+- Added `Copy All Unique` button to Scan page
 - Added more actions and notifications
 - Cleaned up notifications
 - Multiple random players in a command now listed in a single notification
 - Notification text is now selectable and copyable
 - `Character` and `UnCharacter` commands now apply a `HumanoidDescription` instead of refreshing the character
-- You can now use table indices for `decalIDs` or `soundIDs` in commands like `Music`, `JumpScare`, and `SkyBox`
+- You can now use table indices for `DecalIDs` or `SoundIDs` in commands like `Music`, `Jumpscare`, and `SkyBox`
 
 **Bug Fixes**
 
@@ -340,8 +358,11 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 ## [Version 1.7.1](https://github.com/FlowScript/Phantom/commit/7fe9decc6a8f5bffef47db03214606d012c08482)
+**New Commands**:
+- `StarterGear`, `RemoveStarterGear`
+- `Hint`
+
 **New Features:**
-- Added `Hint`, `StarterGear`, and `RemoveStarterGear` commands
 - Improved Executor syntax performance
 
 **Bug Fixes:**
@@ -356,9 +377,16 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Commands now use `DisplayName` by default (use `@` before player name to search by `player.Name`)
 
 **New Commands:**
-- Added `Car`, `UnCar`, `CopyToolsTo`, `Gun`, `UnGun`, `Message`, `Notify`, `Place`, `SellAsset`, `SellGamePass`, `Stats`, `Teleport`
+- `SellAsset`, `SellGamePass`
+- `Car`, `UnCar`
+- `Gun`, `UnGun`
+- `Message`, `Notify`
+- `Place`
+- `Teleport`
+- `CopyToolsTo`
+- `Stats`
 
-**Other Changes:**
+**Changes:**
 - Added more command aliases
 - Redesigned Announcements
 - `Character` command now supports `DisplayNames` and using `"me"`
@@ -384,7 +412,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Added `Minimize`, `Command Bar`, and `Inspect Sections` to settings
 - Added `Use Display Name` setting to Command Bar section
 - Execute commands on all, others, or random players by separating them with commas (e.g., `all,all,all,all`)
-- Execute commands on a random player in Script Hub by typing `"random"` into the player box
+- Execute commands on a random player in Script Hub by typing `random` into the player box
 
 **Bug Fixes**
 
@@ -392,7 +420,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 ## [Version 1.6.7](https://github.com/FlowScript/Phantom/commit/438355cf68eea5ea97eca1ae21d5d0d5cd8b165b)
 **New Commands:**
-- Added `Hide` and `Unhide` commands
+- `Hide`, `UnHide`
 
 **Changes:**
 - Owner now appears on top in Server page
@@ -414,9 +442,12 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 ## [Version 1.6.5](https://github.com/FlowScript/Phantom/commit/ee3f9dc2c9431eca51e1c76ddcb06a7f6ddd9228)
+**New Commands:**
+- `Ban`, `UnBan`
+- `Crash`
+
 **New Features:**
-- Added `Ban`, `Unban`, and `Crash` commands
-- Added `Ban` button to Inspect Menu
+- Added `Ban` command button to Inspect Menu
 - `Jumpscare` command now uses a random image if no image is provided
 - Toggled state for items in Scan page now auto-updates when changed externally
 - Scan page items are now smaller (60 units -> 40 units)
@@ -467,14 +498,16 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 ## [Version 1.6.0](https://github.com/FlowScript/Phantom/commit/44ec7b9ca38a2379eff39f78b41d0fe0f748eca8)
+**New Features:**
+- Added `NowPlaying` command
+- Added button to switch between `Console` and `Chat` logs
+- Added `[Hidden]` argument to `BTools` command
+- Added `Translate Chat Logs` setting to Settings page
+- Added `Reset Mouse Icon` setting to the Settings page
+- Added `Developer Icon` next to Game Developer's name in the Server, Action, Scan, and Inspect pages
+
 **Changes:**
 - Renamed `Console` page to `Logs`
-- Added button to switch between `Console` and `Chat` logs
-- Added `NowPlaying` command
-- Added `[Hidden]` argument to `BTools` command
-- Added `Translate Chat Logs` feature to Settings page
-- Added `Reset Mouse Icon` feature to the Settings page
-- Added `Developer Icon` next to Game Developer's name in the Server, Action, Scan, and Inspect pages
 
 **Bug Fixes**
 
@@ -494,32 +527,36 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 ## [Version 1.5.7](https://github.com/FlowScript/Phantom/commit/1a39e4c3a127f5d2d9fe62a8b8b6a3facbb558f4)
+**New Features:**
+- Added `ClickTP` command
+- Added more scripts to `scriptHub`
+
+**Removed:**
+- `Kidnap` and `Guns` commands
+
 **Changes:**
 - Fixed bugs with `R6`
 - `R6` is now a local module instead of a require
 - `ScriptHub` is now server-side instead of client-side
-- Removed `kidnap` and `guns` commands
-- Added `clicktp` command
-- Added more scripts to `scriptHub`
-- And more...
 
 ---
 
 ## [Version 1.5.6](https://github.com/FlowScript/Phantom/commit/c486bbdb6271b951394a2b00c0f8ee6f60428fa8)
+**Removed:**
+- Removed the home page
+
 **Changes:**
-- Removed the home page (who needed it, right?)
 - Completely redesigned the commands script
 - Added better formatting for Server, Scan, and Actions pages
-- Added visibility toggle in Scan page for `screenguis`, `scripts`, and `localscripts`
+- Added visibility toggle in Scan page for `ScreenGUIs`, `Scripts`, and `LocalScripts`
 - Changed some styling for the Settings page
-- Removed some other stuff (can't remember everything!)
 
 ---
 
 ## [Version 1.5.5](https://github.com/FlowScript/Phantom/commit/ad7e8da623ac997cdfbc4200294cd320d3fc02c7)
 **New Features:**
 - Added search functionality to console
-- Added `jumpscare` command
+- Added `Jumpscare` command
 - Removed unused objects
 
 **Bug Fixes**
