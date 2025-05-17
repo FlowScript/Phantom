@@ -8,7 +8,7 @@
 #### Phantom was a server-side made back in 2018 *(Formally known as "BruhK3K" at the time)*.
 It has since been discontinued, and I decided to release the source code to the GUI.
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
-#### Update *(May 14th, 2025)*:
+#### Update *(May 16th, 2025)*:
 Phantom Version 1.9.2 will most likely be the final version. *Bug Fixes Excluded*
 
 #### Notice
@@ -22,16 +22,31 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.2](https://github.com/FlowScript/Phantom/commit/2fbe1773e953ebcae742603b32aa551bdad7e8be)
+## [Version 1.9.2](https://github.com/FlowScript/Phantom/commit/5c5c4af26c5cde03a41403785c67ec5c10881c50)
 
 **New Features:**
-- Added optional `Player(s)` argument to `CopyTools` command
+- Added `High Priority Keybinds` Setting
+  - When enabled, Phantom will use `ContextActionService` instead of `UserInputService` to handle Keybinds
 
-Removed:
+**New Optional Arguments for Commands:**
+- `Player(s)` to `CopyTools` command
+- `Droppable` to all *Gear Type* commands
+- `AutoAssignable` to `CreateTeam` and `RenameTeam` commands
+- `DoubleSided` to `Decal` and `Sign` commands
+- `BlastPressure` and `BrickColorIndex`*2* to `Explode` command
+- `MaxDistance` to `MusicCharacter` and `MusicPart` commands
+- `CelestialBodies` to `Skybox` command
+- `Opacity` to `Smoke` command
+- `ForceFieldDuration` to `SpawnPoint` command
+
+**Removed:**
 - `CopyToolsTo` command
+- `Hide Require Logs on Execute` setting *(Now Enabled by Default)*
 
-Changes:
+**Changes:**
 - Every other row in the `Actions` Page has a different `Background Color` for better visibility
+- `Command History` is now synced between `Commands page` and `Command bar`
+- Slightly Changed the Look of the `Other Pages`
 - GUI Tweaks and Changes
 
 **Bug Fixes**
