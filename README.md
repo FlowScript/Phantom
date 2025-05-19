@@ -22,7 +22,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.2](https://github.com/FlowScript/Phantom/commit/0c5740e31699eb234e67d969dbe2c605eae91e58)
+## [Version 1.9.2](https://github.com/FlowScript/Phantom/commit/39e643e508b3d50aa3e29383c40dc9bdf58c905d)
 
 **New Features:**
 - You can now view your `Local GUIs` by `Scanning the Local Player`
