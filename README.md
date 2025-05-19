@@ -8,7 +8,7 @@
 #### Phantom was a server-side made back in 2018 *(Formally known as "BruhK3K" at the time)*.
 It has since been discontinued, and I decided to release the source code to the GUI.
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
-#### Update *(May 18th, 2025)*:
+#### Update *(May 19th, 2025)*:
 Phantom Version 1.9.2 will most likely be the final version. *Bug Fixes Excluded*
 
 #### Notice
@@ -22,7 +22,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.2](https://github.com/FlowScript/Phantom/commit/f36905ee41272dc079dd7e99720ab8c61e012dc6)
+## [Version 1.9.2](https://github.com/FlowScript/Phantom/commit/0c5740e31699eb234e67d969dbe2c605eae91e58)
 
 **New Features:**
 - You can now view your `Local GUIs` by `Scanning the Local Player`
