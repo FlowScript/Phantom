@@ -22,7 +22,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.2](https://github.com/FlowScript/Phantom/commit/13d8869cb5fb1ea9d665bc9a0ca16b5f2e9126a7)
+## [Version 1.9.2](https://github.com/FlowScript/Phantom/commit/f36905ee41272dc079dd7e99720ab8c61e012dc6)
 
 **New Features:**
 - You can now view your `Local GUIs` by `Scanning the Local Player`
@@ -36,6 +36,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
   - Multi Search Example: `search1,search2,etc...`
 - Added support for more `Strings` and `Comments` in Executor Syntax
   - `[[ ]]`, `[=[ ]=]`, `--[[ ]]`, `--[=[ ]=]`
+- Added `Notifications` for `Log Restore`
 
 **New Optional Arguments for Commands:**
 - `Player(s)` to `CopyTools` command
@@ -56,6 +57,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Every other row in the `Actions` Page has a different `Background Color` for better visibility
 - `Command History` is now synced between `Commands page` and `Command bar`
 - Slightly Changed the Look of the `Other Pages`
+- Changed how the `Name` script functions
 - Tweaks and Changes to `GUI` and `Backend`
 
 **Bug Fixes**
