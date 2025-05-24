@@ -5,8 +5,8 @@
 ## About
 ### Source code for **Phantom ServerSide** GUI
 
-#### Phantom was a server-side made back in 2018 *(Formally known as "BRUHK3K" at the time)*.
-It has since been discontinued, and I decided to release the source code to the GUI.
+Phantom was a server-side made back in 2018 *(Formally known as "BRUHK3K" at the time)*.  
+It has since been discontinued, and I decided to release the source code to the GUI.  
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
 #### Update *(May 24th, 2025)*:
 There will be no further updates after Version 1.9.2
@@ -21,7 +21,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ---
 
 # Pages and Features List
-**Executor:**
+## Executor:
 ![Executor](./Images/executor.png)
 - Code Execution
   - `Client Sided`, `Server Sided`
@@ -30,7 +30,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Syntax Coloring
 - Line Counting
 
-**Script Hub:**
+## Script Hub:
 ![Script Hub](./Images/scriptHub.png)
 - Built-In Backup Script List if Download of Pastebin Failed
   - Refresh Option Provided to Try Again
@@ -46,7 +46,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Target Player Variable
   - Quickly Reference the `Target Player` by Using the Variable `LPlr` inside the Script String
 
-**Commands:**
+## Commands:
 ![Commands](./Images/commands.png)
 - 170 Built-In Commands
 - Command Aliases
@@ -57,13 +57,13 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Command History
   - Use the `Up` and `Down` Arrow Keys to Navigate the Command History
 
-**Command Bar:**
+## Command Bar:
 ![Command Bar](./Images/commandBar.png)
 - Quickly Execute Scripts by Pulling Up the Command Bar
   - Default Keybind: `;`
 - Command List
 
-**Logs:**
+## Logs:
 ![Logs](./Images/logs.png)
 - Console Logs
   - `Client`, `Server`
@@ -82,7 +82,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
   - `Left Click` a Log to Switch the Player's Name Between their `Display Name` and `Normal Name`
   - `Right Click` a Log to `Delete` it
 
-**Server:**
+## Server:
 ![Server](./Images/server.png)
 - Player List
   - `Badges`, `Picture`, `Name`, `Display Name`, `User ID`, `Account Age`
@@ -91,14 +91,14 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Player Shortcuts
   - `Actions`, `Scan`, `Script Hub`
 
-**Actions:**
+## Actions:
 ![Actions](./Images/actions.png)
 - Player Info Display
   - `Badges`, `Picture`, `Name`, `Display Name`, `User ID`, `Account Age`
 - Quick Command Actions
   - Tap on an `Action` to `Execute` it
 
-**Scan:**
+## Scan:
 ![Scan](./Images/scan.png)
 - Player Info Display
   - `Badges`, `Picture`, `Name`, `Display Name`, `User ID`, `Account Age`
@@ -110,7 +110,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
   - Viewing Items that are Client Sided Only
   - Only Supported with the Local Player *(Not Other Players)*
 
-**Settings:**
+##  Settings:
 ![Settings](./Images/settings.png)
 - Features Section:
   - Auto Convert
@@ -143,7 +143,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
   - Close GUI
   - Hide GUI *(Hide the Phantom GUI for a Specified Amount of Time)*
 
-**Inspect:**
+## Inspect:
 ![Inspect](./Images/inspect.png)
 - Inspect a Player to View Info About Them or Perform Actions
   - Hover the `Mouse` Over the Player's `Character`
@@ -154,7 +154,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
   - `Kill`, `Kick`, `Ban`, `More`
   - `More` will Open the `Actions` Page for the Following Player
 
-**ESP:**
+## ESP:
 ![ESP](./Images/esp.png)
 - Quickly See the Locaiton of Everyone in the Server
   - Default Keybind: `F6`
@@ -162,7 +162,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Name Titles Can be Toggled
 - Custom Colors or Team Colors Can be Used
 
-**Notifications:**
+## Notifications:
 ![Notifications](./Images/notifications.png)
 - Executor
   - Formatting Errors
@@ -187,7 +187,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Settings
   - Invalid Hide Time
 
-**Player Badges:**
+## Player Badges:
 ![Badges](./Images/badges.png)
 - These Badges Can be Displayed in the Server, Actions, Scan, and Inspect Pages
 - Purple: Local Player
