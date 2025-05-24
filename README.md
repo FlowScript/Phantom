@@ -8,7 +8,7 @@
 #### Phantom was a server-side made back in 2018 *(Formally known as "BruhK3K" at the time)*.
 It has since been discontinued, and I decided to release the source code to the GUI.
 Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
-#### Update *(May 20th, 2025)*:
+#### Update *(May 24th, 2025)*:
 Phantom Version 1.9.2 will most likely be the final version. *Bug Fixes Excluded*
 
 #### Notice
@@ -22,15 +22,30 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.2](https://github.com/FlowScript/Phantom/commit/696f09c809532ce36d6b1f749f249ce53fd76289)
+## [Version 1.9.2](https://github.com/FlowScript/Phantom/commit/453c355f0d5c8384ac87dbcfea96c6be2209d165)
+
+**New Commands:**
+- `Accessory`, `UnAccessory`
+- `MeshAccessory`, `UnMeshAccessory`
+- `Mesh`, `UnMesh`
+- `Blur`, `UnBlur`
+- `ColorCorrection`, `UnColorCorrection`
+- `LocalBlur`, `UnLocalBlur`
+- `LocalColorCorrection`, `UnLocalColorCorrection`
+- `ScreenShake`, `UnScreenShake`
+- `Face`, `UnFace`
 
 **New Features:**
+- Added `Target Exclusion` with `-`
+  - Example: `kill all,-player2` - This will kill `All` players besides `Player2`
+- `Distance Tag` now uses `Viewing` Player if a Player is being `Viewed`
 - You can now view your `Local GUIs` by `Scanning the Local Player`
 - `Scan` Page now tracks Items' `Names` and will Update them
 - Added `Type Searching` to Scan Page
   - Example: `type:script ScriptName`, `type:script,screengui`
 - Added `High Priority Keybinds` Setting
   - When enabled, Phantom will use `ContextActionService` instead of `UserInputService` to handle Keybinds
+- `Logs` page will now display the `Current Number` of Console Logs and Chat Logs
 - Improved `All` Search Functions
   - `Position Saving` and `Multi Searching`
   - Multi Search Example: `search1,search2,etc...`
@@ -40,7 +55,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 **New Optional Arguments for Commands:**
 - `Player(s)` to `CopyTools` command
-- `Droppable` to all *Gear Type* commands
+- `Droppable` and `StarterGear` to all *Gear Type* commands
 - `AutoAssignable` to `CreateTeam` and `RenameTeam` commands
 - `DoubleSided` to `Decal` and `Sign` commands
 - `BlastPressure` and `BrickColorIndex`*2* to `Explode` command
