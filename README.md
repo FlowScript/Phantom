@@ -1,18 +1,18 @@
-# Phantom
+# PHANTOM
 ![Version: 1.9.2](https://img.shields.io/badge/Version-1.9.2-white.svg)
 ![License: GPL-2.0](https://img.shields.io/badge/License-GPL%202.0-blue.svg)
 
 ## About
-### Source code for **Phantom ServerSide** GUI
+### Source code for **PHANTOM ServerSide** GUI
 
-Phantom was a server-side made back in 2018 *(Formally known as "BRUHK3K" at the time)*.  
+PHANTOM was a server-side made back in 2018 *(Formally known as "BRUHK3K" at the time)*.  
 It has since been discontinued, and I decided to release the source code to the GUI.  
-Sometime in 2024 I began updating Phantom's GUI more regularly, and it's now become a sort of passion project.
-#### Update *(May 24th, 2025)*:
+Sometime in 2024 I began updating PHANTOM's GUI more regularly, and it's now become a sort of passion project.
+#### Update *(May 25th, 2025)*:
 There will be no further updates after Version 1.9.2
 
 #### Notice
-Older version of Phantom may contain bugs that hinder the user experience. Please consider using the [Newest Version](./Phantom.rbxm).
+Older version of PHANTOM may contain bugs that hinder the user experience. Please consider using the [Newest Version](./PHANTOM.rbxm).
 
 ## License
 ### This project is licensed under the GNU General Public License v2.0
@@ -141,7 +141,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
   - ESP
 - Closing
   - Close GUI
-  - Hide GUI *(Hide the Phantom GUI for a Specified Amount of Time)*
+  - Hide GUI *(Hide the PHANTOM GUI for a Specified Amount of Time)*
 
 ## Inspect:
 ![Inspect](./Images/inspect.png)
@@ -200,7 +200,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.2 (Latest)](https://github.com/FlowScript/Phantom/commit/453c355f0d5c8384ac87dbcfea96c6be2209d165)
+## [Version 1.9.2 (Latest)]()
 
 **New Commands:**
 - `Accessory`, `UnAccessory`
@@ -212,5 +212,48 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - `LocalColorCorrection`, `UnLocalColorCorrection`
 - `ScreenShake`, `UnScreenShake`
 - `Face`, `UnFace`
+
+**New Features:**
+- Added `Target Exclusion` with `-`
+  - Example: `kill all,-player2` - This will kill `All` players besides `Player2`
+- `Distance Tag` now uses `Viewing` Player if a Player is being `Viewed`
+- You can now view your `Local GUIs` by `Scanning the Local Player`
+- `Scan` Page now tracks Items' `Names` and will Update them
+- Added `Type Searching` to Scan Page
+  - Example: `type:script ScriptName`, `type:script,screengui`
+- Added `High Priority Keybinds` Setting
+  - When enabled, Phantom will use `ContextActionService` instead of `UserInputService` to handle Keybinds
+- `Logs` page will now display the `Current Number` of Console Logs and Chat Logs
+- Improved `All` Search Functions
+  - `Position Saving` and `Multi Searching`
+  - Multi Search Example: `search1,search2,etc...`
+- Added support for more `Strings` and `Comments` in Executor Syntax
+  - `[[ ]]`, `[=[ ]=]`, `--[[ ]]`, `--[=[ ]=]`
+- Added `Notifications` for `Log Restore`
+
+**New Optional Arguments for Commands:**
+- `Player(s)` to `CopyTools` command
+- `ToolName` to `StarterGear`, `RemoveStarterGear`, `UnGear`, `CopyTools` commands
+- `Droppable` and `StarterGear` to all *Gear Type* commands
+- `AutoAssignable` to `CreateTeam` and `RenameTeam` commands
+- `DoubleSided` to `Decal` and `Sign` commands
+- `BlastPressure` and `BrickColorIndex`*2* to `Explode` command
+- `MaxDistance` to `MusicCharacter` and `MusicPart` commands
+- `CelestialBodies` to `Skybox` command
+- `Opacity` to `Smoke` command
+- `ForceFieldDuration` to `SpawnPoint` command
+
+**Removed:**
+- `CopyToolsTo` command
+- `Hide Require Logs on Execute` setting *(Now Enabled by Default)*
+
+**Changes:**
+- Every other row in the `Actions` Page has a different `Background Color` for better visibility
+- `Command History` is now synced between `Commands page` and `Command bar`
+- Slightly Changed the Look of the `Other Pages`
+- Changed how the `Name` script functions
+- Tweaks and Changes to `GUI` and `Backend`
+
+**Bug Fixes**
 
 ### See the [CHANGELOG](./CHANGELOG.md) file for the full changelog.

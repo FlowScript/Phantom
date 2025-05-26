@@ -1,6 +1,6 @@
 # Changelog
 
-## [Version 1.9.2 (Latest)](https://github.com/FlowScript/Phantom/commit/453c355f0d5c8384ac87dbcfea96c6be2209d165)
+## [Version 1.9.2 (Latest)]()
 
 **New Commands:**
 - `Accessory`, `UnAccessory`
@@ -22,7 +22,7 @@
 - Added `Type Searching` to Scan Page
   - Example: `type:script ScriptName`, `type:script,screengui`
 - Added `High Priority Keybinds` Setting
-  - When enabled, Phantom will use `ContextActionService` instead of `UserInputService` to handle Keybinds
+  - When enabled, PHANTOM will use `ContextActionService` instead of `UserInputService` to handle Keybinds
 - `Logs` page will now display the `Current Number` of Console Logs and Chat Logs
 - Improved `All` Search Functions
   - `Position Saving` and `Multi Searching`
@@ -33,6 +33,7 @@
 
 **New Optional Arguments for Commands:**
 - `Player(s)` to `CopyTools` command
+- `ToolName` to `StarterGear`, `RemoveStarterGear`, `UnGear`, `CopyTools` commands
 - `Droppable` and `StarterGear` to all *Gear Type* commands
 - `AutoAssignable` to `CreateTeam` and `RenameTeam` commands
 - `DoubleSided` to `Decal` and `Sign` commands
@@ -57,7 +58,7 @@
 
 ---
 
-## [Version 1.9.1](https://github.com/FlowScript/Phantom/commit/f05bb334433842746a4c62b420df20d121b62bae)
+## [Version 1.9.1](https://github.com/FlowScript/PHANTOM/commit/f05bb334433842746a4c62b420df20d121b62bae)
 
 **New Features:**
 - Added `Target Tags` to `Script Hub Player Search` and to `Character`, `SpawnPoint`, `Teleport`, commands
@@ -73,7 +74,7 @@
 
 ---
 
-## [Version 1.9.0](https://github.com/FlowScript/Phantom/commit/3eb91f23fc0cf5e4e5f6c9eb63514e7972f2d0c8)
+## [Version 1.9.0](https://github.com/FlowScript/PHANTOM/commit/3eb91f23fc0cf5e4e5f6c9eb63514e7972f2d0c8)
 
 **New Features:**
 - Added targeting Players within a specified Stud radius
@@ -103,7 +104,7 @@
 
 ---
 
-## [Version 1.8.9](https://github.com/FlowScript/Phantom/commit/315abce3163a441a2baf427e858cf86e68ace22f)
+## [Version 1.8.9](https://github.com/FlowScript/PHANTOM/commit/315abce3163a441a2baf427e858cf86e68ace22f)
 
 **New Commands:**
 - `LocalLoadString`
@@ -118,7 +119,7 @@
 
 ---
 
-## [Version 1.8.8](https://github.com/FlowScript/Phantom/commit/eaceb22a9ccc9f9bbd52835d9f5d111ce14b5ead)
+## [Version 1.8.8](https://github.com/FlowScript/PHANTOM/commit/eaceb22a9ccc9f9bbd52835d9f5d111ce14b5ead)
 
 **New Commands:**
 - `Decal`, `UnDecal`
@@ -145,7 +146,7 @@
 
 ---
 
-## [Version 1.8.7](https://github.com/FlowScript/Phantom/commit/79258b0383fa025e7d22f922c0a7647ab45f4f09)
+## [Version 1.8.7](https://github.com/FlowScript/PHANTOM/commit/79258b0383fa025e7d22f922c0a7647ab45f4f09)
 
 **New Settings:**
 - `Hide Require Logs on Execute`
@@ -162,7 +163,7 @@
 
 ---
 
-## [Version 1.8.6](https://github.com/FlowScript/Phantom/commit/b9df360af7a7c75cf25d499b0fa81b5427b47ef8)
+## [Version 1.8.6](https://github.com/FlowScript/PHANTOM/commit/b9df360af7a7c75cf25d499b0fa81b5427b47ef8)
 
 **New Commands:**
 - `SpawnPoint`, `UnSpawnPoint`
@@ -184,7 +185,7 @@
 
 ---
 
-## [Version 1.8.5](https://github.com/FlowScript/Phantom/commit/19075b85799e77adada6f62e51071795fda2acc0)
+## [Version 1.8.5](https://github.com/FlowScript/PHANTOM/commit/19075b85799e77adada6f62e51071795fda2acc0)
 
 **New Features:**
 - You can now select the `Player` you're currently viewing by using `!viewing`
@@ -201,7 +202,7 @@
 
 ---
 
-## [Version 1.8.4](https://github.com/FlowScript/Phantom/commit/532e99de56668c58b1fd7896d596d053ee71481b)
+## [Version 1.8.4](https://github.com/FlowScript/PHANTOM/commit/532e99de56668c58b1fd7896d596d053ee71481b)
 
 **New Commands:**
 - `Sign`, `UnSign`,
@@ -217,7 +218,7 @@
 
 ---
 
-## [Version 1.8.3](https://github.com/FlowScript/Phantom/commit/8823c29223d8fd418a484b1518062de61a7c4534)
+## [Version 1.8.3](https://github.com/FlowScript/PHANTOM/commit/8823c29223d8fd418a484b1518062de61a7c4534)
 **New Features:**
 - Added `excludeLocalPlayer` tag for the following Commands:
   - `ban`
@@ -235,7 +236,7 @@
 
 ---
 
-## [Version 1.8.2](https://github.com/FlowScript/Phantom/commit/0294bdae170d7734e378a40ce255d127cb348789)
+## [Version 1.8.2](https://github.com/FlowScript/PHANTOM/commit/0294bdae170d7734e378a40ce255d127cb348789)
 **New Commands:**
 - `Mine`, `UnMine`
 - `Bomb`, `UnBomb`
@@ -258,7 +259,7 @@
 
 ---
 
-## [Version 1.8.1](https://github.com/FlowScript/Phantom/commit/747d7fc229c5a1352aba424dfddaec33850ecdbb)
+## [Version 1.8.1](https://github.com/FlowScript/PHANTOM/commit/747d7fc229c5a1352aba424dfddaec33850ecdbb)
 **New Commands:**
 - `ApiBan`, `UnApiBan`, `ForceApiBan`
 
@@ -273,7 +274,7 @@
 
 ---
 
-## [Version 1.8.0](https://github.com/FlowScript/Phantom/commit/a7c8434ff200ffef6aea4c1dab5b49429954a96e)
+## [Version 1.8.0](https://github.com/FlowScript/PHANTOM/commit/a7c8434ff200ffef6aea4c1dab5b49429954a96e)
 **New Commands:**
 - `Bans`, `ForceBan`
 - `Guis`, `UnGuis`
@@ -290,7 +291,7 @@
 
 ---
 
-## [Version 1.7.9](https://github.com/FlowScript/Phantom/commit/ae75dd50f97e75bb7e00078288e4c1250698ca55)
+## [Version 1.7.9](https://github.com/FlowScript/PHANTOM/commit/ae75dd50f97e75bb7e00078288e4c1250698ca55)
 **Changes:**
 - `Change`, `Team`, and `RemoveTeam` commands now support using indexes instead of names
 - `Change` command now supports `BoolValues`
@@ -299,7 +300,7 @@
 
 ---
 
-## [Version 1.7.8](https://github.com/FlowScript/Phantom/commit/39624e4a86dd90468e68fe9610c27c992d42be0c)
+## [Version 1.7.8](https://github.com/FlowScript/PHANTOM/commit/39624e4a86dd90468e68fe9610c27c992d42be0c)
 **New Commands:**
 - `Title`, `UnTitle`
 - `Hologram`, `UnHologram`
@@ -312,7 +313,7 @@
 
 ---
 
-## [Version 1.7.7](https://github.com/FlowScript/Phantom/commit/64f483fa86626c619584f9a759ae6abfad15e2e4)
+## [Version 1.7.7](https://github.com/FlowScript/PHANTOM/commit/64f483fa86626c619584f9a759ae6abfad15e2e4)
 **New Commands:**
 - `Fog`, `UnFog`
 - `MusicCharacter`, `UnMusicCharacter`
@@ -326,7 +327,7 @@
 
 ---
 
-## [Version 1.7.6](https://github.com/FlowScript/Phantom/commit/b39fb87c53073f4fac00805b52b1cf8a18582e80)
+## [Version 1.7.6](https://github.com/FlowScript/PHANTOM/commit/b39fb87c53073f4fac00805b52b1cf8a18582e80)
 **New Features:**
 - Added `Copy All Unique` button to Scan page
 - Added more actions and notifications
@@ -340,7 +341,7 @@
 
 ---
 
-## [Version 1.7.5](https://github.com/FlowScript/Phantom/commit/4e25677d02aec08e82e40ec46cb7e96077aa76de)
+## [Version 1.7.5](https://github.com/FlowScript/PHANTOM/commit/4e25677d02aec08e82e40ec46cb7e96077aa76de)
 **New Features:**
 - Added `UnName` command
 - Added `Copy` button to Items in Scan page
@@ -349,7 +350,7 @@
 
 ---
 
-## [Version 1.7.4](https://github.com/FlowScript/Phantom/commit/5499706bf3375e3719ddc1ac3fbce96935c3f531)
+## [Version 1.7.4](https://github.com/FlowScript/PHANTOM/commit/5499706bf3375e3719ddc1ac3fbce96935c3f531)
 **New Features:**
 - Added `Skybox` command with optional default `Image ID`
 - Increased default Image IDs to 85 decals
@@ -359,7 +360,7 @@
 
 ---
 
-## [Version 1.7.3](https://github.com/FlowScript/Phantom/commit/eba608bc7acacf0c8d5042df74a11934b3f8be55)
+## [Version 1.7.3](https://github.com/FlowScript/PHANTOM/commit/eba608bc7acacf0c8d5042df74a11934b3f8be55)
 **Changes:**
 - Made console logs into text boxes to allow text copying (right-click to delete doesn't work for console logs)
 - Removed bar color for Chat logs since the new `TextChatService` doesn’t specify whisper/team messages
@@ -367,7 +368,7 @@
 
 ---
 
-## [Version 1.7.2](https://github.com/FlowScript/Phantom/commit/df20ce93a9cff3209662600831839650c40801e2)
+## [Version 1.7.2](https://github.com/FlowScript/PHANTOM/commit/df20ce93a9cff3209662600831839650c40801e2)
 **New Features:**
 - Added `PrivateHint` command
 - Server page now fetches players from the server and handles templates locally
@@ -376,7 +377,7 @@
 
 ---
 
-## [Version 1.7.1](https://github.com/FlowScript/Phantom/commit/7fe9decc6a8f5bffef47db03214606d012c08482)
+## [Version 1.7.1](https://github.com/FlowScript/PHANTOM/commit/7fe9decc6a8f5bffef47db03214606d012c08482)
 **New Commands**:
 - `StarterGear`, `RemoveStarterGear`
 - `Hint`
@@ -390,7 +391,7 @@
 
 ---
 
-## [Version 1.7.0](https://github.com/FlowScript/Phantom/commit/2b73e4f93fa3268642d04182ec8eda67f8055fd5)
+## [Version 1.7.0](https://github.com/FlowScript/PHANTOM/commit/2b73e4f93fa3268642d04182ec8eda67f8055fd5)
 **Reworks:**
 - Reworked the Commands Script and command handling
 - Commands now use `DisplayName` by default (use `@` before player name to search by `player.Name`)
@@ -419,14 +420,14 @@
 
 ---
 
-## [Version 1.6.9](https://github.com/FlowScript/Phantom/commit/3c081f976e76b76652ea673c2b2c6295717b9534)
+## [Version 1.6.9](https://github.com/FlowScript/PHANTOM/commit/3c081f976e76b76652ea673c2b2c6295717b9534)
 **New Features:**
 - Added `R15` command
 - Command history now restores typed text when cycling through history with arrow keys
 
 ---
 
-## [Version 1.6.8](https://github.com/FlowScript/Phantom/commit/4c36daaf709ee668c9e556e80a426e9a5f99bcf3)
+## [Version 1.6.8](https://github.com/FlowScript/PHANTOM/commit/4c36daaf709ee668c9e556e80a426e9a5f99bcf3)
 **New Features:**
 - Added `Minimize`, `Command Bar`, and `Inspect Sections` to settings
 - Added `Use Display Name` setting to Command Bar section
@@ -437,7 +438,7 @@
 
 ---
 
-## [Version 1.6.7](https://github.com/FlowScript/Phantom/commit/438355cf68eea5ea97eca1ae21d5d0d5cd8b165b)
+## [Version 1.6.7](https://github.com/FlowScript/PHANTOM/commit/438355cf68eea5ea97eca1ae21d5d0d5cd8b165b)
 **New Commands:**
 - `Hide`, `UnHide`
 
@@ -449,7 +450,7 @@
 
 ---
 
-## [Version 1.6.6](https://github.com/FlowScript/Phantom/commit/449d6b41d880f7d4a8867cfc7c964086440efa93)
+## [Version 1.6.6](https://github.com/FlowScript/PHANTOM/commit/449d6b41d880f7d4a8867cfc7c964086440efa93)
 **Changes:**
 - Moved Settings to Items Module
 - Moved `R6` function to Items Module
@@ -460,7 +461,7 @@
 
 ---
 
-## [Version 1.6.5](https://github.com/FlowScript/Phantom/commit/ee3f9dc2c9431eca51e1c76ddcb06a7f6ddd9228)
+## [Version 1.6.5](https://github.com/FlowScript/PHANTOM/commit/ee3f9dc2c9431eca51e1c76ddcb06a7f6ddd9228)
 **New Commands:**
 - `Ban`, `UnBan`
 - `Crash`
@@ -479,7 +480,7 @@
 
 ---
 
-## [Version 1.6.4](https://github.com/FlowScript/Phantom/commit/426887e216dd26771f652ab8c240a503c068625c)
+## [Version 1.6.4](https://github.com/FlowScript/PHANTOM/commit/426887e216dd26771f652ab8c240a503c068625c)
 **Changes:**
 - New Script Hub format supporting an infinite number of groups with custom colors
 - Added `MouseButton1Click` function to chat logs to toggle between `DisplayName` and `Name`
@@ -487,7 +488,7 @@
 
 ---
 
-## [Version 1.6.3](https://github.com/FlowScript/Phantom/commit/90b947bf0fe14ba82b5eb930b0b55ec84690acaa)
+## [Version 1.6.3](https://github.com/FlowScript/PHANTOM/commit/90b947bf0fe14ba82b5eb930b0b55ec84690acaa)
 **Changes:**
 - Small UI updates and improvements
 
@@ -495,7 +496,7 @@
 
 ---
 
-## [Version 1.6.2](https://github.com/FlowScript/Phantom/commit/3a0043453f761b6ed2feb68d25b94191f31d6f4a)
+## [Version 1.6.2](https://github.com/FlowScript/PHANTOM/commit/3a0043453f761b6ed2feb68d25b94191f31d6f4a)
 **Changes:**
 - `F3X` and `Sword` items now cannot be dropped
 - Added more checks to music-type commands
@@ -508,7 +509,7 @@
 
 ---
 
-## [Version 1.6.1](https://github.com/FlowScript/Phantom/commit/1a03e0fe5d9674689b48385d7014c46ba24e8e96)
+## [Version 1.6.1](https://github.com/FlowScript/PHANTOM/commit/1a03e0fe5d9674689b48385d7014c46ba24e8e96)
 **New Features:**
 - Added `Translation Styles`
 
@@ -516,7 +517,7 @@
 
 ---
 
-## [Version 1.6.0](https://github.com/FlowScript/Phantom/commit/44ec7b9ca38a2379eff39f78b41d0fe0f748eca8)
+## [Version 1.6.0](https://github.com/FlowScript/PHANTOM/commit/44ec7b9ca38a2379eff39f78b41d0fe0f748eca8)
 **New Features:**
 - Added `NowPlaying` command
 - Added button to switch between `Console` and `Chat` logs
@@ -532,7 +533,7 @@
 
 ---
 
-## [Version 1.5.8](https://github.com/FlowScript/Phantom/commit/a70b2afd4083b84b8feddae33a6c9f6f776272cf)
+## [Version 1.5.8](https://github.com/FlowScript/PHANTOM/commit/a70b2afd4083b84b8feddae33a6c9f6f776272cf)
 **New Features:**
 - Added client execute for the executor
 - Custom notifications UI
@@ -545,7 +546,7 @@
 
 ---
 
-## [Version 1.5.7](https://github.com/FlowScript/Phantom/commit/1a39e4c3a127f5d2d9fe62a8b8b6a3facbb558f4)
+## [Version 1.5.7](https://github.com/FlowScript/PHANTOM/commit/1a39e4c3a127f5d2d9fe62a8b8b6a3facbb558f4)
 **New Features:**
 - Added `ClickTP` command
 - Added more scripts to `scriptHub`
@@ -560,7 +561,7 @@
 
 ---
 
-## [Version 1.5.6](https://github.com/FlowScript/Phantom/commit/c486bbdb6271b951394a2b00c0f8ee6f60428fa8)
+## [Version 1.5.6](https://github.com/FlowScript/PHANTOM/commit/c486bbdb6271b951394a2b00c0f8ee6f60428fa8)
 **Removed:**
 - Removed the home page
 
@@ -572,7 +573,7 @@
 
 ---
 
-## [Version 1.5.5](https://github.com/FlowScript/Phantom/commit/ad7e8da623ac997cdfbc4200294cd320d3fc02c7)
+## [Version 1.5.5](https://github.com/FlowScript/PHANTOM/commit/ad7e8da623ac997cdfbc4200294cd320d3fc02c7)
 **New Features:**
 - Added search functionality to console
 - Added `Jumpscare` command
@@ -582,33 +583,33 @@
 
 ---
 
-## [Version 1.5.4](https://github.com/FlowScript/Phantom/commit/98511975ce0eb8767d9eeea630a272e90a08c2e6)
+## [Version 1.5.4](https://github.com/FlowScript/PHANTOM/commit/98511975ce0eb8767d9eeea630a272e90a08c2e6)
 **Changes:**
 - `Script Hub` now loads from URL
 - Other small changes
 
 ---
 
-## [Version 1.5.3](https://github.com/FlowScript/Phantom/commit/dbbe59b769be68420f10417b6a48a5abcfe91265)
+## [Version 1.5.3](https://github.com/FlowScript/PHANTOM/commit/dbbe59b769be68420f10417b6a48a5abcfe91265)
 **Changes:**
 - Script Hub script changes
 - Small tweaks and bug fixes
 
 ---
 
-## [Version 1.5.2](https://github.com/FlowScript/Phantom/commit/295e53a1afca2c6e213b54cf23d635dc716ec31f)
+## [Version 1.5.2](https://github.com/FlowScript/PHANTOM/commit/295e53a1afca2c6e213b54cf23d635dc716ec31f)
 **Bug Fixes:**
 - Fixed `Server Page Search`
 
 ---
 
-## [Version 1.5.1](https://github.com/FlowScript/Phantom/commit/b3fbafeeb2ec954e0c67daf4dbba53df139edf03)
+## [Version 1.5.1](https://github.com/FlowScript/PHANTOM/commit/b3fbafeeb2ec954e0c67daf4dbba53df139edf03)
 **Changes:**
 - `Script Hub` fixes
 
 ---
 
-## [Version 1.5.0](https://github.com/FlowScript/Phantom/commit/ab1b65c31cb0b097aee051adf148ea9c8f047eeb)
+## [Version 1.5.0](https://github.com/FlowScript/PHANTOM/commit/ab1b65c31cb0b097aee051adf148ea9c8f047eeb)
 **Changes:**
 - Command history changes
 - New setting added
@@ -617,7 +618,7 @@
 
 ---
 
-## [Version 1.4.9](https://github.com/FlowScript/Phantom/commit/47dbe1bc04768d8934ccd3a6cf8fc18667ee63bf)
+## [Version 1.4.9](https://github.com/FlowScript/PHANTOM/commit/47dbe1bc04768d8934ccd3a6cf8fc18667ee63bf)
 **Changes:**
 - Changed `Script Hub` search
 - Made command history longer
@@ -626,16 +627,16 @@
 
 ---
 
-## [Version 1.4.8](https://github.com/FlowScript/Phantom/commit/54d9cda30ec71b4382c5f253fc88b6d4d8d98a3b)
+## [Version 1.4.8](https://github.com/FlowScript/PHANTOM/commit/54d9cda30ec71b4382c5f253fc88b6d4d8d98a3b)
 **Bug Fixes**
 
 ---
 
-## [Version 1.4.7](https://github.com/FlowScript/Phantom/commit/9a75751904c7fda371c2fff81654459b543d8b91)
+## [Version 1.4.7](https://github.com/FlowScript/PHANTOM/commit/9a75751904c7fda371c2fff81654459b543d8b91)
 **Bug Fixes:**
 - Fixed bugs related to the action page
 
 ---
 
-## [Version 1.4.6](https://github.com/FlowScript/Phantom/commit/e459cb40a8fababc441de9d8133519bcc6036758) and Lower
+## [Version 1.4.6](https://github.com/FlowScript/PHANTOM/commit/e459cb40a8fababc441de9d8133519bcc6036758) and Lower
 **Unknown Changes**
