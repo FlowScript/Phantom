@@ -200,7 +200,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.2 (Latest)]()
+## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/abf78f7d8a6d1cbdb32f9314f671d0f884a35d05)
 
 **New Commands:**
 - `Accessory`, `UnAccessory`
