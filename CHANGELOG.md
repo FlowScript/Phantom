@@ -1,6 +1,6 @@
 # Changelog
 
-## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/abf78f7d8a6d1cbdb32f9314f671d0f884a35d05)
+## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/97a061566c061c48c17da1d4ccefbce414b96228)
 
 **New Commands:**
 - `Accessory`, `UnAccessory`
@@ -16,6 +16,7 @@
 **New Features:**
 - Added `Target Exclusion` with `-`
   - Example: `kill all,-player2` - This will kill `All` players besides `Player2`
+- Added `Refresh` button to `Script Hub`
 - `Distance Tag` now uses `Viewing` Player if a Player is being `Viewed`
 - You can now view your `Local GUIs` by `Scanning the Local Player`
 - `Scan` Page now tracks Items' `Names` and will Update them
