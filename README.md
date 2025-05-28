@@ -200,7 +200,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/97a061566c061c48c17da1d4ccefbce414b96228)
+## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/bda3c5f959080fa560ea6b8e47b5d6b160775236)
 
 **New Commands:**
 - `Accessory`, `UnAccessory`
@@ -212,6 +212,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - `LocalColorCorrection`, `UnLocalColorCorrection`
 - `ScreenShake`, `UnScreenShake`
 - `Face`, `UnFace`
+- `Shirt`, `Pants`
 
 **New Features:**
 - Added `Target Exclusion` with `-`
@@ -245,7 +246,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - `ForceFieldDuration` to `SpawnPoint` command
 
 **Removed:**
-- `CopyToolsTo` command
+- `CopyToolsTo`, `PreviousError`, `PrivousSuccess` commands
 - `Hide Require Logs on Execute` setting *(Now Enabled by Default)*
 
 **Changes:**
