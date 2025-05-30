@@ -8,7 +8,7 @@
 PHANTOM was a server-side made back in 2018 *(Formally known as "BRUHK3K" at the time)*.  
 It has since been discontinued, and I decided to release the source code to the GUI.  
 Sometime in 2024 I began updating PHANTOM's GUI more regularly, and it's now become a sort of passion project.
-#### Update *(May 25th, 2025)*:
+#### Update *(May 30th, 2025)*:
 There will be no further updates after Version 1.9.2
 
 #### Notice
@@ -77,7 +77,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
   - `type:type searchString`
 - Special Highlighting for Required Asset Logs
 - Log History Restoration
-  - `Right Click` the `Pause Button`
+  - `Left Click` the `Refresh Button`
 - Chat Log Quick Actions
   - `Left Click` a Log to Switch the Player's Name Between their `Display Name` and `Normal Name`
   - `Right Click` a Log to `Delete` it
@@ -200,7 +200,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/bda3c5f959080fa560ea6b8e47b5d6b160775236)
+## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/a7cc1f67f246dc5a4750198447f47d53bc69bb0b)
 
 **New Commands:**
 - `Accessory`, `UnAccessory`
@@ -224,7 +224,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Added `Type Searching` to Scan Page
   - Example: `type:script ScriptName`, `type:script,screengui`
 - Added `High Priority Keybinds` Setting
-  - When enabled, Phantom will use `ContextActionService` instead of `UserInputService` to handle Keybinds
+  - When enabled, PHANTOM will use `ContextActionService` instead of `UserInputService` to handle Keybinds
 - `Logs` page will now display the `Current Number` of Console Logs and Chat Logs
 - Improved `All` Search Functions
   - `Position Saving` and `Multi Searching`
@@ -250,6 +250,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - `Hide Require Logs on Execute` setting *(Now Enabled by Default)*
 
 **Changes:**
+- Reduced GUI `Padding` from `10` to `5`
 - Every other row in the `Actions` Page has a different `Background Color` for better visibility
 - `Command History` is now synced between `Commands page` and `Command bar`
 - Slightly Changed the Look of the `Other Pages`

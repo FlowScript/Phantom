@@ -1,6 +1,6 @@
 # Changelog
 
-## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/bda3c5f959080fa560ea6b8e47b5d6b160775236)
+## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/a7cc1f67f246dc5a4750198447f47d53bc69bb0b)
 
 **New Commands:**
 - `Accessory`, `UnAccessory`
@@ -50,6 +50,7 @@
 - `Hide Require Logs on Execute` setting *(Now Enabled by Default)*
 
 **Changes:**
+- Reduced GUI `Padding` from `10` to `5`
 - Every other row in the `Actions` Page has a different `Background Color` for better visibility
 - `Command History` is now synced between `Commands page` and `Command bar`
 - Slightly Changed the Look of the `Other Pages`
