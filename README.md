@@ -8,7 +8,7 @@
 PHANTOM was a server-side made back in 2018 *(Formally known as "BRUHK3K" at the time)*.  
 It has since been discontinued, and I decided to release the source code to the GUI.  
 Sometime in 2024 I began updating PHANTOM's GUI more regularly, and it's now become a sort of passion project.
-#### Update *(June 1th, 2025)*:
+#### Update *(June 1st, 2025)*:
 There will be no further updates after Version 1.9.2
 
 #### Notice
