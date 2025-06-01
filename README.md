@@ -8,7 +8,7 @@
 PHANTOM was a server-side made back in 2018 *(Formally known as "BRUHK3K" at the time)*.  
 It has since been discontinued, and I decided to release the source code to the GUI.  
 Sometime in 2024 I began updating PHANTOM's GUI more regularly, and it's now become a sort of passion project.
-#### Update *(May 30th, 2025)*:
+#### Update *(May 31th, 2025)*:
 There will be no further updates after Version 1.9.2
 
 #### Notice
@@ -27,13 +27,13 @@ See the [LICENSE](./LICENSE.txt) file for details.
   - `Client Sided`, `Server Sided`
 - Local Player Variable
   - Quickly Reference the `Local Player` by Using the Variable `LPlr`
-- Syntax Coloring
-- Line Counting
+- Syntax Colors
+- Line Numbers
 
 ## Script Hub:
 ![Script Hub](./Images/scriptHub.png)
 - Built-In Backup Script List if Download of Pastebin Failed
-  - Refresh Option Provided to Try Again
+- Refresh/Fetch Newest Script Hub Version Option
 - Version Tracking
 - Multiple Script Groups with Custom Colors
   - Differentiate Danger Levels
@@ -48,7 +48,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 ## Commands:
 ![Commands](./Images/commands.png)
-- 170 Built-In Commands
+- 170+ Built-In Commands
 - Command Aliases
 - Optional Command Arugments
 - Advanced Player Targeting
@@ -105,7 +105,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - PlayerGUI Display
 - Quick Item Actions
   - `Delete`, `Copy`, `Toggle`
-- Copy All *(If Unique Item in List)*
+- Copy All Option *(If Unique Item in List)*
 - Local PlayerGui Support
   - Viewing Items that are Client Sided Only
   - Only Supported with the Local Player *(Not Other Players)*
@@ -174,9 +174,10 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Commands
   - Successes
   - Errors
+  - Info
 - Logs
   - Required Asset Logged
-  - Log Restoration
+  - Logs Restored
 - Server
   - Owner Joined
   - Owner Left
@@ -194,13 +195,13 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Red: Game Developer/Owner
 - Blue: Game Developer/Owner Friend
 - Orange: Hidden
-- Yellow: Unhidden *(Was Previously Hidden)*
+- Yellow: Unhidden *(Player Was Previously Hidden)*
 
 ---
 
 # Changelog
 
-## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/a7cc1f67f246dc5a4750198447f47d53bc69bb0b)
+## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/40a242f5a215ef39c1610bf466f31941bd45a0aa)
 
 **New Commands:**
 - `Accessory`, `UnAccessory`
@@ -210,9 +211,28 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - `ColorCorrection`, `UnColorCorrection`
 - `LocalBlur`, `UnLocalBlur`
 - `LocalColorCorrection`, `UnLocalColorCorrection`
+- `LocalMusic`, `UnLocalMusic`
 - `ScreenShake`, `UnScreenShake`
 - `Face`, `UnFace`
-- `Shirt`, `Pants`
+- `Shirt`, `UnShirt`
+- `Pants`, `UnPants`
+- `UnMusic`, `UnSkyBox`
+  - *`Music 0` and `SkyBox 0` Still Work*
+  - *These Commands Where Added to Prevent Confusion*
+
+**New Optional Arguments for Commands:**
+- `Player(s)` to `CopyTools` command
+- `ToolName` to `StarterGear`, `RemoveStarterGear`, `UnGear`, `CopyTools` commands
+- `Droppable` and `StarterGear` to all *Gear Type* commands
+- `AutoAssignable` to `CreateTeam` and `RenameTeam` commands
+- `DoubleSided` to `Decal` and `Sign` commands
+- `BlastPressure` and `BrickColorIndex`*2* to `Explode` command
+- `MaxDistance` to `MusicCharacter` and `MusicPart` commands
+- `CelestialBodies` to `Skybox` command
+- `Opacity` to `Smoke` command
+- `ForceFieldDuration` to `SpawnPoint` command
+- `Volume` and `Pitch` to `JumpScare` and `Crash` commands
+- `Player` to `NowPlaying` command
 
 **New Features:**
 - Added `Target Exclusion` with `-`
@@ -232,18 +252,6 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Added support for more `Strings` and `Comments` in Executor Syntax
   - `[[ ]]`, `[=[ ]=]`, `--[[ ]]`, `--[=[ ]=]`
 - Added `Notifications` for `Log Restore`
-
-**New Optional Arguments for Commands:**
-- `Player(s)` to `CopyTools` command
-- `ToolName` to `StarterGear`, `RemoveStarterGear`, `UnGear`, `CopyTools` commands
-- `Droppable` and `StarterGear` to all *Gear Type* commands
-- `AutoAssignable` to `CreateTeam` and `RenameTeam` commands
-- `DoubleSided` to `Decal` and `Sign` commands
-- `BlastPressure` and `BrickColorIndex`*2* to `Explode` command
-- `MaxDistance` to `MusicCharacter` and `MusicPart` commands
-- `CelestialBodies` to `Skybox` command
-- `Opacity` to `Smoke` command
-- `ForceFieldDuration` to `SpawnPoint` command
 
 **Removed:**
 - `CopyToolsTo`, `PreviousError`, `PrivousSuccess` commands

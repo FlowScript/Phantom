@@ -1,6 +1,6 @@
 # Changelog
 
-## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/a7cc1f67f246dc5a4750198447f47d53bc69bb0b)
+## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/40a242f5a215ef39c1610bf466f31941bd45a0aa)
 
 **New Commands:**
 - `Accessory`, `UnAccessory`
@@ -10,9 +10,28 @@
 - `ColorCorrection`, `UnColorCorrection`
 - `LocalBlur`, `UnLocalBlur`
 - `LocalColorCorrection`, `UnLocalColorCorrection`
+- `LocalMusic`, `UnLocalMusic`
 - `ScreenShake`, `UnScreenShake`
 - `Face`, `UnFace`
-- `Shirt`, `Pants`
+- `Shirt`, `UnShirt`
+- `Pants`, `UnPants`
+- `UnMusic`, `UnSkyBox`
+  - *`Music 0` and `SkyBox 0` Still Work*
+  - *These Commands Where Added to Prevent Confusion*
+
+**New Optional Arguments for Commands:**
+- `Player(s)` to `CopyTools` command
+- `ToolName` to `StarterGear`, `RemoveStarterGear`, `UnGear`, `CopyTools` commands
+- `Droppable` and `StarterGear` to all *Gear Type* commands
+- `AutoAssignable` to `CreateTeam` and `RenameTeam` commands
+- `DoubleSided` to `Decal` and `Sign` commands
+- `BlastPressure` and `BrickColorIndex`*2* to `Explode` command
+- `MaxDistance` to `MusicCharacter` and `MusicPart` commands
+- `CelestialBodies` to `Skybox` command
+- `Opacity` to `Smoke` command
+- `ForceFieldDuration` to `SpawnPoint` command
+- `Volume` and `Pitch` to `JumpScare` and `Crash` commands
+- `Player` to `NowPlaying` command
 
 **New Features:**
 - Added `Target Exclusion` with `-`
@@ -32,18 +51,6 @@
 - Added support for more `Strings` and `Comments` in Executor Syntax
   - `[[ ]]`, `[=[ ]=]`, `--[[ ]]`, `--[=[ ]=]`
 - Added `Notifications` for `Log Restore`
-
-**New Optional Arguments for Commands:**
-- `Player(s)` to `CopyTools` command
-- `ToolName` to `StarterGear`, `RemoveStarterGear`, `UnGear`, `CopyTools` commands
-- `Droppable` and `StarterGear` to all *Gear Type* commands
-- `AutoAssignable` to `CreateTeam` and `RenameTeam` commands
-- `DoubleSided` to `Decal` and `Sign` commands
-- `BlastPressure` and `BrickColorIndex`*2* to `Explode` command
-- `MaxDistance` to `MusicCharacter` and `MusicPart` commands
-- `CelestialBodies` to `Skybox` command
-- `Opacity` to `Smoke` command
-- `ForceFieldDuration` to `SpawnPoint` command
 
 **Removed:**
 - `CopyToolsTo`, `PreviousError`, `PrivousSuccess` commands
