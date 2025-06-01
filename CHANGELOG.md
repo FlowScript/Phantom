@@ -1,6 +1,6 @@
 # Changelog
 
-## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/40a242f5a215ef39c1610bf466f31941bd45a0aa)
+## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/6b12a417d9c1594d5f067a7d0367fe9181d50375)
 
 **New Commands:**
 - `Accessory`, `UnAccessory`
@@ -12,6 +12,10 @@
 - `LocalColorCorrection`, `UnLocalColorCorrection`
 - `LocalMusic`, `UnLocalMusic`
 - `ScreenShake`, `UnScreenShake`
+- `FakeAnnounceMent`
+- `FakeMessage`
+- `PrivateFakeChat`
+- `PrivateSystemMessage`
 - `Face`, `UnFace`
 - `Shirt`, `UnShirt`
 - `Pants`, `UnPants`

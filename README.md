@@ -8,7 +8,7 @@
 PHANTOM was a server-side made back in 2018 *(Formally known as "BRUHK3K" at the time)*.  
 It has since been discontinued, and I decided to release the source code to the GUI.  
 Sometime in 2024 I began updating PHANTOM's GUI more regularly, and it's now become a sort of passion project.
-#### Update *(May 31th, 2025)*:
+#### Update *(June 1th, 2025)*:
 There will be no further updates after Version 1.9.2
 
 #### Notice
@@ -48,7 +48,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 ## Commands:
 ![Commands](./Images/commands.png)
-- 170+ Built-In Commands
+- 180 Built-In Commands
 - Command Aliases
 - Optional Command Arugments
 - Advanced Player Targeting
@@ -201,7 +201,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/40a242f5a215ef39c1610bf466f31941bd45a0aa)
+## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/6b12a417d9c1594d5f067a7d0367fe9181d50375)
 
 **New Commands:**
 - `Accessory`, `UnAccessory`
@@ -213,6 +213,10 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - `LocalColorCorrection`, `UnLocalColorCorrection`
 - `LocalMusic`, `UnLocalMusic`
 - `ScreenShake`, `UnScreenShake`
+- `FakeAnnounceMent`
+- `FakeMessage`
+- `PrivateFakeChat`
+- `PrivateSystemMessage`
 - `Face`, `UnFace`
 - `Shirt`, `UnShirt`
 - `Pants`, `UnPants`
