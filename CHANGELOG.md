@@ -1,6 +1,6 @@
 # Changelog
 
-## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/6b12a417d9c1594d5f067a7d0367fe9181d50375)
+## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/48bd1dfa39a519e9233e9c1693a2bd5016dd12b6)
 
 **New Commands:**
 - `Accessory`, `UnAccessory`
@@ -26,7 +26,7 @@
 **New Optional Arguments for Commands:**
 - `Player(s)` to `CopyTools` command
 - `ToolName` to `StarterGear`, `RemoveStarterGear`, `UnGear`, `CopyTools` commands
-- `Droppable` and `StarterGear` to all *Gear Type* commands
+- `StarterGear`, `Droppable`, and `AutoEquip` to all *Gear Type* commands
 - `AutoAssignable` to `CreateTeam` and `RenameTeam` commands
 - `DoubleSided` to `Decal` and `Sign` commands
 - `BlastPressure` and `BrickColorIndex`*2* to `Explode` command
