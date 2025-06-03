@@ -12,7 +12,7 @@ Sometime in 2024 I began updating PHANTOM's GUI more regularly, and it's now bec
 There will be no further updates after Version 1.9.2
 
 #### Notice
-Older version of PHANTOM may contain bugs that hinder the user experience. Please consider using the [Newest Version](./PHANTOM.rbxm).
+Previous versions of PHANTOM may contain bugs that hinder the user experience. Please consider using the [Newest Version](./PHANTOM.rbxm).
 
 ## License
 ### This project is licensed under the GNU General Public License v2.0
