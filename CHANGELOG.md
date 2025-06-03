@@ -24,32 +24,32 @@
   - *These Commands Where Added to Prevent Confusion*
 
 **New Optional Arguments for Commands:**
-- `Player(s)` to `CopyTools` command
-- `ToolName` to `StarterGear`, `RemoveStarterGear`, `UnGear`, `CopyTools` commands
+- `Player(s)` to the `CopyTools` command
+- `ToolName` to the `StarterGear`, `RemoveStarterGear`, `UnGear`, `CopyTools` commands
 - `StarterGear`, `Droppable`, and `AutoEquip` to all *Gear Type* commands
-- `AutoAssignable` to `CreateTeam` and `RenameTeam` commands
-- `DoubleSided` to `Decal` and `Sign` commands
-- `BlastPressure` and `BrickColorIndex`*2* to `Explode` command
-- `MaxDistance` to `MusicCharacter` and `MusicPart` commands
-- `AddNew` to `Music` command
-- `Volume` and `Pitch` to `JumpScare` and `Crash` commands
-- `Player` to `NowPlaying` command
-- `ForceFieldDuration` to `SpawnPoint` command
-- `CelestialBodies` to `Skybox` command
-- `Opacity` to `Smoke` command
+- `AutoAssignable` to the `CreateTeam` and `RenameTeam` commands
+- `DoubleSided` to the `Decal` and `Sign` commands
+- `BlastPressure` and `BrickColorIndex`*2* to the `Explode` command
+- `MaxDistance` to the `MusicCharacter` and `MusicPart` commands
+- `AddNew` to the `Music` command
+- `Volume` and `Pitch` to the `JumpScare` and `Crash` commands
+- `Player` to the `NowPlaying` command
+- `ForceFieldDuration` to the `SpawnPoint` command
+- `CelestialBodies` to the `Skybox` command
+- `Opacity` to the `Smoke` command
 
 **New Features:**
 - Added `Target Exclusion` with `-`
   - Example: `kill all,-player2` - This will kill `All` players besides `Player2`
-- Added `Refresh` button to `Script Hub`
+- Added `Refresh` button to the `Script Hub`
 - `Distance Tag` now uses `Viewing` Player if a Player is being `Viewed`
 - You can now view your `Local GUIs` by `Scanning the Local Player`
-- `Scan` Page now tracks Items' `Names` and will Update them
-- Added `Type Searching` to Scan Page
+- The `Scan` page now tracks Items' `Names` and will Update them
+- Added `Type Searching` to the `Scan` page
   - Example: `type:script ScriptName`, `type:script,screengui`
 - Added `High Priority Keybinds` setting
   - When enabled, PHANTOM will use `ContextActionService` instead of `UserInputService` to handle Keybinds
-- `Logs` page will now display the `Current Number` of Console Logs and Chat Logs
+- The `Logs` page will now display the `Current Number` of Console Logs and Chat Logs
 - Improved `All` Search Functions
   - `Position Saving` and `Multi Searching`
   - Multi Search Example: `search1,search2,etc...`
@@ -63,8 +63,8 @@
 
 **Changes:**
 - Reduced GUI `Padding` from `10` to `5`
-- Every other row in the `Actions` Page has a different `Background Color` for better visibility
-- `Command History` is now synced between `Commands page` and `Command bar`
+- Every other row in the `Actions` page has a different `Background Color` for better visibility
+- `Command History` is now synced between the `Commands Page` and the `Command Bar`
 - Slightly Changed the Look of the `Other Pages`
 - Changed how the `Name` script functions
 - Tweaks and Changes to `GUI` and `Backend`
@@ -76,12 +76,12 @@
 ## [Version 1.9.1](https://github.com/FlowScript/PHANTOM/commit/f05bb334433842746a4c62b420df20d121b62bae)
 
 **New Features:**
-- Added `Target Tags` to `Script Hub Player Search` and to `Character`, `SpawnPoint`, `Teleport`, commands
+- Added `Target Tags` to the `Script Hub Player Search`, and to the `Character`, `SpawnPoint`, and `Teleport` commands
 - Added `Team Index` to `Target Tags`
-- Added `Ignore Invalid Targets` Setting
+- Added `Ignore Invalid Targets` setting
 
 **Changes:**
-- Changed `AutoR6` Setting to `Auto Convert`
+- Changed `AutoR6` setting to `Auto Convert`
   - `Auto Converts` the Local Player's `Character` to `R6` or `R15`
 - Tweaks and Improvements
 
@@ -92,7 +92,7 @@
 ## [Version 1.9.0](https://github.com/FlowScript/PHANTOM/commit/3eb91f23fc0cf5e4e5f6c9eb63514e7972f2d0c8)
 
 **New Features:**
-- Added targeting Players within a specified Stud radius
+- Added targeting Players within a specified `Stud Radius`
   - Example: `kill !10` - kills Players within a 10 Stud radius
 - Added Aliases for `!viewing` and `!targets` Tags:
   - `!viewing`: `!view`, `!v`
@@ -100,19 +100,19 @@
 - Added `UnGear` command
 - Added optional `ToolName` argument to the `RemoveTools` command
 - Added optional `MaxSpeed` and `Multiple` arguments to the `Car` command
-- Added optional `Strength` argument to `Fling` command
+- Added optional `Strength` argument to the `Fling` command
 - Added optional `SingleTool` argument to multiple *Gear Type* commands
 - Added optional `ImageID` and `SoundID` arguments to the `Crash` command
-- Added optional `Heat` argument to `Fire` command
-- Added optional `Size` argument to `Smoke` command
-- Added optional `BrickColorIndex` argument to `Fire`, `Smoke`, and `Sparkles` commands
+- Added optional `Heat` argument to the `Fire` command
+- Added optional `Size` argument to the `Smoke` command
+- Added optional `BrickColorIndex` argument to the `Fire`, `Smoke`, and `Sparkles` commands
 
 **Changes:**
 - Gears added via the `Gear` command can now be removed using the `UnGear` command
 - The `SpawnPoint` command now uses the Targeted Player's Position if no Secondary Target is specified
 - Updated the Freecam Script to the latest Roblox Release
   - The `FreeCam` command now has a Keybind Toggle *(Shift + P)*
-- Added `R15` Tag as an option to `Script Hub` scripts
+- Added `R15` Tag as an option to the `Script Hub` scripts
 - Small Tweaks and Improvements
 
 **Bug Fixes**
@@ -146,12 +146,12 @@
 
 **New Features:**
 - Commands can now be executed on "!targets" after setting Targets with the `SetTargets` command
-- Added a Log Client Console Setting for better tracking
-- Enhanced Command Search functionality for improved user experience
-- Introduced Searching by Type on the Logs page (Valid searches: `type:server`, `client`, `error`, `warning (warn)`, `output (print)`)
-- The Script Hub now utilizes "me" instead of the Local Player Name for targeting
-- Local Player targeting in Commands and Script Hub is now exclusively done using "me" or "all" (the Local Player's Name will no longer be accepted)
-- A warning has been added for executing scripts on multiple players in the Script Hub
+- Added `Log Client Console` setting for better tracking
+- Improved `Command` search for better results
+- Introduced Searching by Type on the `Logs` page *(Valid searches: `type:server`, `client`, `error`, `warning (warn)`, `output (print)`)*
+- The `Script Hub` now uses `me` instead of the `Local Player` Name for `Targeting`
+- `Local Player` Targeting in the `Commands` and `Script Hub` pages is now done using `me` or `all` *(The Local Player's Name will no longer be accepted)*
+- A `Warning` has been added for executing scripts on `Multiple` Players in the `Script Hub`
 
 **Changes:**
 - `Viewing` a Player will now `Persist` if the Character is `Reloaded`
@@ -169,7 +169,7 @@
 - `Translation Styles`
 
 **New Features:**
-- A Notification is now displayed when a Require is logged on the Logs page.
+- A `Notification` is now displayed when a `Require` is logged on the `Logs` page
 
 **Changes:**
 - Small UI Tweaks
@@ -187,8 +187,8 @@
 - `RenameTeam`
 
 **New Features:**
-- Script Hub now hides `Requires` from the Console
-- Added `Print to Console` setting in Settings Page under `Notifications`
+- `Script Hub` now hides `Requires` from the Console
+- Added `Print to Console` setting to the `Settings` page under `Notifications`
 - `Right Clicking` the `Pause Button` while viewing `Console Logs` now restores `Previous Server Logs` using Log History
 
 **Changes:**
@@ -205,13 +205,13 @@
 **New Features:**
 - You can now select the `Player` you're currently viewing by using `!viewing`
   - Example: `kill !viewing`
-- Added a `Notification` Section in the Settings page
-  - Enable or Disable Notifications
+- Added a `Notification` Section to the `Settings` page
+  - Enable or Disable `Notifications`
   - Enable or Disable `Extra Command Notifications`
-  - Change the `Maximum` number of Notifications
+  - Change the `Maximum` number of `Notifications`
 
 **Changes:**
-- Reworded several Notifications
+- Reworded several `Notifications`
 
 **Bug Fixes**
 
@@ -240,11 +240,11 @@
   - `apiBan`
   - `kick`
   - `crash`
-  - This prevents the Command from running on the Local Player
+  - This prevents the `Command` from running on the `Local Player`
 
 **New Features:**
 - `ForceApiBan` command now accepts UserIDs
-- The `View` command now sets the Local Player's `ReplicationFocus` to the player they're viewing
+- The `View` command now sets the Local Player's `ReplicationFocus` to the player they're `Viewing`
 
 **Changes:**
 - Small Notification Changes
@@ -259,12 +259,12 @@
 - `PrivateNotification`
 
 **New Features:**
-- Added `ESP` Section in Settings page with Settings:
+- Added `ESP` Section to the `Settings` page with Settings:
   - `Toggle`
   - `Display Names`
   - `Use Team Color`
-- Notifications can now have different `Duration` times
-- Notifications now display a `Progress Bar` indicating the time until the notification disappears
+- `Notifications` can now have different `Duration` times
+- `Notifications` now display a `Progress Bar` indicating the time until the notification disappears
 
 **Changes:**
 - Max notification count is now `4` instead of `3`
@@ -279,11 +279,11 @@
 - `ApiBan`, `UnApiBan`, `ForceApiBan`
 
 **New Features:**
-- ScriptHub Backup Scripts now immediately load in, in case HTTP requests are put into long queues
-- Added ESP toggle and Keybind to the Settings page
-- Features and Keybinds have been grouped in the Settings page
+- `Script Hub` Backup Scripts now immediately load in *(In case HTTP requests are put into long queues)*
+- Added `ESP toggle` and `Keybind` to the `Settings` page
+- `Features` and `Keybinds` have been grouped in the `Settings` page
 - Added optional `Hidden` argument to the `ForceField` command
-- Using the `random` tag when specifying a target now excludes the local player (unless they're the only player in the server)
+- Using the `Random` tag when specifying a target now excludes the local player *(Unless they're the only player in the server)*
 
 **Bug Fixes**
 
@@ -296,8 +296,8 @@
 - `Inventory`, `UnInventory`
 
 **New Features:**
-- Added optional `BrickColorIndex` argument for the following commands: `title`, `hologram`, `createteam`
-- Made titles half the size of holograms
+- Added optional `BrickColorIndex` argument for the following commands: `Title`, `Hologram`, `CreateTeam`
+- Made `Titles` half the size of `Holograms`
 
 **Removed:**
 - Deprecated `LegacyChatService` support
@@ -308,7 +308,7 @@
 
 ## [Version 1.7.9](https://github.com/FlowScript/PHANTOM/commit/ae75dd50f97e75bb7e00078288e4c1250698ca55)
 **Changes:**
-- `Change`, `Team`, and `RemoveTeam` commands now support using indexes instead of names
+- `Change`, `Team`, and `RemoveTeam` commands now support using `Indexes` instead of `Names`
 - `Change` command now supports `BoolValues`
 
 **Bug Fixes**
@@ -321,8 +321,8 @@
 - `Hologram`, `UnHologram`
 
 **Changes:**
-- Updated the look of the Commands Page command bar
-- In the Scan page, if the Local Player has the same GUI as the template, the copy button’s image color is set to gray
+- Updated the look of the `Command Bar` in the `Commands` page
+- In the `Scan` page, if the `Local Player` has the same GUI as the template, the copy button’s image color is set to gray
 
 **Bug Fixes**
 
@@ -337,17 +337,17 @@
 - `UnTeam`
 
 **Changes:**
-- Updated how command aliases are rendered
-- Added support for multiple commands in a single line (e.g., `command1 args1|command2 args2`)
+- Updated how `Command Aliases` are rendered
+- Added support for multiple commands *(e.g., `command1 args1|command2 args2`)*
 
 ---
 
 ## [Version 1.7.6](https://github.com/FlowScript/PHANTOM/commit/b39fb87c53073f4fac00805b52b1cf8a18582e80)
 **New Features:**
-- Added `Copy All Unique` button to Scan page
-- Added more actions and notifications
-- Cleaned up notifications
-- Multiple random players in a command now listed in a single notification
+- Added `Copy All Unique` button to the `Scan` page
+- Added more `Actions` and `Notifications`
+- Cleaned up `Notifications`
+- Multiple `Random` Players in a command now listed in a single `Notification`
 - Notification text is now selectable and copyable
 - `Character` and `UnCharacter` commands now apply a `HumanoidDescription` instead of refreshing the character
 - You can now use table indices for `DecalIDs` or `SoundIDs` in commands like `Music`, `Jumpscare`, and `SkyBox`
@@ -359,7 +359,7 @@
 ## [Version 1.7.5](https://github.com/FlowScript/PHANTOM/commit/4e25677d02aec08e82e40ec46cb7e96077aa76de)
 **New Features:**
 - Added `UnName` command
-- Added `Copy` button to Items in Scan page
+- Added `Copy` button to Items in the `Scan` page
 - Added more custom images
 - Added image pre-loading in Intro
 
@@ -377,7 +377,7 @@
 
 ## [Version 1.7.3](https://github.com/FlowScript/PHANTOM/commit/eba608bc7acacf0c8d5042df74a11934b3f8be55)
 **Changes:**
-- Made console logs into text boxes to allow text copying (right-click to delete doesn't work for console logs)
+- Made console logs into text boxes to allow text copying *(Right-click to delete doesn't work for console logs)*
 - Removed bar color for Chat logs since the new `TextChatService` doesn’t specify whisper/team messages
 - Updated how some colors are handled
 
@@ -386,9 +386,9 @@
 ## [Version 1.7.2](https://github.com/FlowScript/PHANTOM/commit/df20ce93a9cff3209662600831839650c40801e2)
 **New Features:**
 - Added `PrivateHint` command
-- Server page now fetches players from the server and handles templates locally
-- Added new icons to Server, Actions, and Scan pages (LocalPlayer, Developer, DeveloperFriend, Hidden, UnHidden)
-- `Car` command now places the car in workspace instead of inside the character (a script inside the model will remove it if the player leaves)
+- The `Server` page now fetches players from the server and handles templates locally
+- Added new icons to the `Server`, `Actions`, and `Scan` pages *(LocalPlayer, Developer, DeveloperFriend, Hidden, UnHidden)*
+- The `Car` command now places the car in workspace instead of inside the character *(A script inside the model will remove it if the player leaves)*
 
 ---
 
@@ -401,15 +401,15 @@
 - Improved Executor syntax performance
 
 **Bug Fixes:**
-- Fixed bug in `Hide` command
-- Fixed formatting bug in `Chat` command
+- Fixed bug in the `Hide` command
+- Fixed formatting bug in the `Chat` command
 
 ---
 
 ## [Version 1.7.0](https://github.com/FlowScript/PHANTOM/commit/2b73e4f93fa3268642d04182ec8eda67f8055fd5)
 **Reworks:**
 - Reworked the Commands Script and command handling
-- Commands now use `DisplayName` by default (use `@` before player name to search by `player.Name`)
+- Commands now use `DisplayName` by default *(Use `@` before player name to search by `player.Name`)*
 
 **New Commands:**
 - `SellAsset`, `SellGamePass`
@@ -444,10 +444,10 @@
 
 ## [Version 1.6.8](https://github.com/FlowScript/PHANTOM/commit/4c36daaf709ee668c9e556e80a426e9a5f99bcf3)
 **New Features:**
-- Added `Minimize`, `Command Bar`, and `Inspect Sections` to settings
+- Added `Minimize`, `Command Bar`, and `Inspect Sections` to the `Settings` page
 - Added `Use Display Name` setting to Command Bar section
-- Execute commands on all, others, or random players by separating them with commas (e.g., `all,all,all,all`)
-- Execute commands on a random player in Script Hub by typing `random` into the player box
+- Execute commands on all, others, or random players by separating them with commas *(e.g., `all,all,all,all`)*
+- Execute commands on a random player in the `Script Hub` by typing `random` into the player box
 
 **Bug Fixes**
 
@@ -458,7 +458,7 @@
 - `Hide`, `UnHide`
 
 **Changes:**
-- Owner now appears on top in Server page
+- `Owner` now appears on top in the `Server` page
 - Removed command aliases `b` & `k`
 
 **Bug Fixes**
@@ -469,8 +469,8 @@
 **Changes:**
 - Moved Settings to Items Module
 - Moved `R6` function to Items Module
-- Added `Use Display Name` and `Use Team Color` settings to Settings page
-- Added `Chat Logs` section to Settings page
+- Added `Use Display Name` and `Use Team Color` settings to the `Settings` page
+- Added `Chat Logs` section to the `Settings` page
 - Removed `Translation Styles`
 - Other small changes
 
@@ -484,10 +484,10 @@
 **New Features:**
 - Added `Ban` command button to Inspect Menu
 - `Jumpscare` command now uses a random image if no image is provided
-- Toggled state for items in Scan page now auto-updates when changed externally
-- Scan page items are now smaller (60 units -> 40 units)
-- Items are now ordered by `ClassName` in the Scan page
-- Players are now ordered by `Name` in the Server page
+- Toggled state for items in the `Scan` page now auto-updates when changed externally
+- `Scan` page items are now smaller *(60 units -> 40 units)*
+- Items are now ordered by `ClassName` in the `Scan` page
+- Players are now ordered by `Name` in the `Server` page
 - Removed message cap from Logs
 - Optimized event connections and disconnections
 
@@ -497,7 +497,7 @@
 
 ## [Version 1.6.4](https://github.com/FlowScript/PHANTOM/commit/426887e216dd26771f652ab8c240a503c068625c)
 **Changes:**
-- New Script Hub format supporting an infinite number of groups with custom colors
+- New `Script Hub` format supporting an infinite number of groups with custom colors
 - Added `MouseButton1Click` function to chat logs to toggle between `DisplayName` and `Name`
 - Error notification now shows if R6 fails to load when executing a script that requires R6
 
@@ -536,13 +536,13 @@
 **New Features:**
 - Added `NowPlaying` command
 - Added button to switch between `Console` and `Chat` logs
-- Added `[Hidden]` argument to `BTools` command
-- Added `Translate Chat Logs` setting to Settings page
-- Added `Reset Mouse Icon` setting to the Settings page
-- Added `Developer Icon` next to Game Developer's name in the Server, Action, Scan, and Inspect pages
+- Added `[Hidden]` argument to the `BTools` command
+- Added `Translate Chat Logs` setting to the `Settings` page
+- Added `Reset Mouse Icon` setting to the `Settings` page
+- Added `Developer Icon` next to Game Developer's name in the `Server`, `Action`, `Scan`, and `Inspect` pages
 
 **Changes:**
-- Renamed `Console` page to `Logs`
+- Renamed the `Console` page to `Logs`
 
 **Bug Fixes**
 
@@ -554,7 +554,7 @@
 - Custom notifications UI
 - Notifications for errors and invalid commands
 - Added `system` command
-- Updated backup `scriptHub` scripts
+- Updated backup `script Hub` scripts
 - Other small changes
 
 **Bug Fixes**
@@ -564,7 +564,7 @@
 ## [Version 1.5.7](https://github.com/FlowScript/PHANTOM/commit/1a39e4c3a127f5d2d9fe62a8b8b6a3facbb558f4)
 **New Features:**
 - Added `ClickTP` command
-- Added more scripts to `scriptHub`
+- Added more scripts to the `script Hub`
 
 **Removed:**
 - `Kidnap` and `Guns` commands
@@ -572,19 +572,19 @@
 **Changes:**
 - Fixed bugs with `R6`
 - `R6` is now a local module instead of a require
-- `ScriptHub` is now server-side instead of client-side
+- `Script Hub` is now server-side instead of client-side
 
 ---
 
 ## [Version 1.5.6](https://github.com/FlowScript/PHANTOM/commit/c486bbdb6271b951394a2b00c0f8ee6f60428fa8)
 **Removed:**
-- Removed the home page
+- Removed the `Home` page
 
 **Changes:**
 - Completely redesigned the commands script
-- Added better formatting for Server, Scan, and Actions pages
-- Added visibility toggle in Scan page for `ScreenGUIs`, `Scripts`, and `LocalScripts`
-- Changed some styling for the Settings page
+- Added better formatting for the `Server`, `Scan`, and `Actions` pages
+- Added visibility toggle in the `Scan` page for `ScreenGUIs`, `Scripts`, and `LocalScripts`
+- Changed some styling for the `Settings` page
 
 ---
 
@@ -607,20 +607,20 @@
 
 ## [Version 1.5.3](https://github.com/FlowScript/PHANTOM/commit/dbbe59b769be68420f10417b6a48a5abcfe91265)
 **Changes:**
-- Script Hub script changes
+- `Script Hub` script changes
 - Small tweaks and bug fixes
 
 ---
 
 ## [Version 1.5.2](https://github.com/FlowScript/PHANTOM/commit/295e53a1afca2c6e213b54cf23d635dc716ec31f)
 **Bug Fixes:**
-- Fixed `Server Page Search`
+- Fixed the `Server` page search
 
 ---
 
 ## [Version 1.5.1](https://github.com/FlowScript/PHANTOM/commit/b3fbafeeb2ec954e0c67daf4dbba53df139edf03)
 **Changes:**
-- `Script Hub` fixes
+- `Script Hub` Fixes
 
 ---
 
@@ -649,7 +649,7 @@
 
 ## [Version 1.4.7](https://github.com/FlowScript/PHANTOM/commit/9a75751904c7fda371c2fff81654459b543d8b91)
 **Bug Fixes:**
-- Fixed bugs related to the action page
+- Fixed bugs related to the `Action` page
 
 ---
 

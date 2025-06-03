@@ -8,7 +8,7 @@
 PHANTOM was a server-side made back in 2018 *(Formally known as "BRUHK3K" at the time)*.  
 It has since been discontinued, and I decided to release the source code to the GUI.  
 Sometime in 2024 I began updating PHANTOM's GUI more regularly, and it's now become a sort of passion project.
-#### Update *(June 1st, 2025)*:
+#### Update *(May 14th, 2025)*:
 There will be no further updates after Version 1.9.2
 
 #### Notice
@@ -225,32 +225,32 @@ See the [LICENSE](./LICENSE.txt) file for details.
   - *These Commands Where Added to Prevent Confusion*
 
 **New Optional Arguments for Commands:**
-- `Player(s)` to `CopyTools` command
-- `ToolName` to `StarterGear`, `RemoveStarterGear`, `UnGear`, `CopyTools` commands
+- `Player(s)` to the `CopyTools` command
+- `ToolName` to the `StarterGear`, `RemoveStarterGear`, `UnGear`, `CopyTools` commands
 - `StarterGear`, `Droppable`, and `AutoEquip` to all *Gear Type* commands
-- `AutoAssignable` to `CreateTeam` and `RenameTeam` commands
-- `DoubleSided` to `Decal` and `Sign` commands
-- `BlastPressure` and `BrickColorIndex`*2* to `Explode` command
-- `MaxDistance` to `MusicCharacter` and `MusicPart` commands
-- `AddNew` to `Music` command
-- `Volume` and `Pitch` to `JumpScare` and `Crash` commands
-- `Player` to `NowPlaying` command
-- `ForceFieldDuration` to `SpawnPoint` command
-- `CelestialBodies` to `Skybox` command
-- `Opacity` to `Smoke` command
+- `AutoAssignable` to the `CreateTeam` and `RenameTeam` commands
+- `DoubleSided` to the `Decal` and `Sign` commands
+- `BlastPressure` and `BrickColorIndex`*2* to the `Explode` command
+- `MaxDistance` to the `MusicCharacter` and `MusicPart` commands
+- `AddNew` to the `Music` command
+- `Volume` and `Pitch` to the `JumpScare` and `Crash` commands
+- `Player` to the `NowPlaying` command
+- `ForceFieldDuration` to the `SpawnPoint` command
+- `CelestialBodies` to the `Skybox` command
+- `Opacity` to the `Smoke` command
 
 **New Features:**
 - Added `Target Exclusion` with `-`
   - Example: `kill all,-player2` - This will kill `All` players besides `Player2`
-- Added `Refresh` button to `Script Hub`
+- Added `Refresh` button to the `Script Hub`
 - `Distance Tag` now uses `Viewing` Player if a Player is being `Viewed`
 - You can now view your `Local GUIs` by `Scanning the Local Player`
-- `Scan` Page now tracks Items' `Names` and will Update them
-- Added `Type Searching` to Scan Page
+- The `Scan` page now tracks Items' `Names` and will Update them
+- Added `Type Searching` to the `Scan` page
   - Example: `type:script ScriptName`, `type:script,screengui`
 - Added `High Priority Keybinds` setting
   - When enabled, PHANTOM will use `ContextActionService` instead of `UserInputService` to handle Keybinds
-- `Logs` page will now display the `Current Number` of Console Logs and Chat Logs
+- The `Logs` page will now display the `Current Number` of Console Logs and Chat Logs
 - Improved `All` Search Functions
   - `Position Saving` and `Multi Searching`
   - Multi Search Example: `search1,search2,etc...`
@@ -264,8 +264,8 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 **Changes:**
 - Reduced GUI `Padding` from `10` to `5`
-- Every other row in the `Actions` Page has a different `Background Color` for better visibility
-- `Command History` is now synced between `Commands page` and `Command bar`
+- Every other row in the `Actions` page has a different `Background Color` for better visibility
+- `Command History` is now synced between the `Commands Page` and the `Command Bar`
 - Slightly Changed the Look of the `Other Pages`
 - Changed how the `Name` script functions
 - Tweaks and Changes to `GUI` and `Backend`
