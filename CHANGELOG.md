@@ -1,6 +1,6 @@
 # Changelog
 
-## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/cc688ca981dd244d1794f2d425922290b6d23c57)
+## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/cd2b23d45f1deae92434f4c77a938f7fac0443c7)
 
 **New Commands:**
 - `Accessory`, `UnAccessory`
