@@ -1,6 +1,6 @@
 # Changelog
 
-## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/48bd1dfa39a519e9233e9c1693a2bd5016dd12b6)
+## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/cc688ca981dd244d1794f2d425922290b6d23c57)
 
 **New Commands:**
 - `Accessory`, `UnAccessory`
@@ -31,11 +31,12 @@
 - `DoubleSided` to `Decal` and `Sign` commands
 - `BlastPressure` and `BrickColorIndex`*2* to `Explode` command
 - `MaxDistance` to `MusicCharacter` and `MusicPart` commands
-- `CelestialBodies` to `Skybox` command
-- `Opacity` to `Smoke` command
-- `ForceFieldDuration` to `SpawnPoint` command
+- `AddNew` to `Music` command
 - `Volume` and `Pitch` to `JumpScare` and `Crash` commands
 - `Player` to `NowPlaying` command
+- `ForceFieldDuration` to `SpawnPoint` command
+- `CelestialBodies` to `Skybox` command
+- `Opacity` to `Smoke` command
 
 **New Features:**
 - Added `Target Exclusion` with `-`
@@ -46,7 +47,7 @@
 - `Scan` Page now tracks Items' `Names` and will Update them
 - Added `Type Searching` to Scan Page
   - Example: `type:script ScriptName`, `type:script,screengui`
-- Added `High Priority Keybinds` Setting
+- Added `High Priority Keybinds` setting
   - When enabled, PHANTOM will use `ContextActionService` instead of `UserInputService` to handle Keybinds
 - `Logs` page will now display the `Current Number` of Console Logs and Chat Logs
 - Improved `All` Search Functions
@@ -58,7 +59,7 @@
 
 **Removed:**
 - `CopyToolsTo`, `PreviousError`, `PrivousSuccess` commands
-- `Hide Require Logs on Execute` setting *(Now Enabled by Default)*
+- `Hide Require Logs on Execute` and `Reset Mouse Icon` settings *(Now Enabled by Default)*
 
 **Changes:**
 - Reduced GUI `Padding` from `10` to `5`
