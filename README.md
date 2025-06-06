@@ -204,6 +204,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 ## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/cd2b23d45f1deae92434f4c77a938f7fac0443c7)
 
 **New Commands:**
+- `Punish`, `UnPunish`
 - `Accessory`, `UnAccessory`
 - `MeshAccessory`, `UnMeshAccessory`
 - `Mesh`, `UnMesh`
@@ -259,7 +260,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Added `Notifications` for `Log Restore`
 
 **Removed:**
-- `CopyToolsTo`, `PreviousError`, `PrivousSuccess` commands
+- `CopyToolsTo`, `Fog`, `UnFog`, `PreviousError`, `PrivousSuccess` commands
 - `Hide Require Logs on Execute` and `Reset Mouse Icon` settings *(Now Enabled by Default)*
 
 **Changes:**
