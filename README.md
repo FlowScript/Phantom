@@ -201,7 +201,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/cd2b23d45f1deae92434f4c77a938f7fac0443c7)
+## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/a140c52fb23ec54d9b63ec0551358c39e585b751)
 
 **New Commands:**
 - `Punish`, `UnPunish`
