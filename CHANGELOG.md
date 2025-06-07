@@ -1,6 +1,6 @@
 # Changelog
 
-## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/172fa35b58b54c696b661caeaeeddc137a0922fd)
+## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/6231c4ebe8bf33e830abda20c612a7657de437d8)
 
 **New Commands:**
 - `Punish`, `UnPunish`
