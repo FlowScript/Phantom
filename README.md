@@ -53,7 +53,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 - Optional Command Arugments
 - Advanced Player Targeting
   - Special Targets: `me`, `all`, `others`, `random`, `!viewing`, `!targets`, `!distance`, `#team`
-  - Target Exclusion: `-playerName`, `-me`, `-others`, `-random`, `-!viewing`, `-!targets`, `-!distance`, `#team`
+  - Target Exclusion: `-playerName`, `-me`, `-random`, `-!viewing`, `-!targets`, `-!distance`, `#team`
 - Command History
   - Use the `Up` and `Down` Arrow Keys to Navigate the Command History
 
@@ -201,7 +201,7 @@ See the [LICENSE](./LICENSE.txt) file for details.
 
 # Changelog
 
-## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/8f9c6e59a1f52fc6fc500baed9e57fe737e815c8)
+## [Version 1.9.2 (Latest)](https://github.com/FlowScript/PHANTOM/commit/0529be058a2484e60295f04149655de16a701a96)
 
 **New Commands:**
 - `Punish`, `UnPunish`
